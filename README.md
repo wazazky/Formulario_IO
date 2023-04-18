@@ -5,3 +5,4 @@ Desarrollo:
 1) Podría decirse que van a hacer una calculadora, donde proporcionaremos los datos para cada variable y nos va a arrojar un resultado para una necesidad cotidiana. 
 2) Cada tema debe tratarse por separado.
 3) Debe existir conectividad en cada bloque de fórmulas ya que cada variable repercute en una nueva variable.
+![image](https://user-images.githubusercontent.com/42927218/232711134-8e305a61-23e5-4b35-887e-14b1e9035d00.png)
