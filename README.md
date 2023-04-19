@@ -12,4 +12,5 @@ Desarrollo:
 Para descargarlo primero nesecitas git o la app de github
 winget install -e --id Git.Git
 ya una ves instalado ir al direcctorio donde quieres que se guarde el programa y poner en en la consola 
-git clone 
+git clone https://github.com/wazazky/Formulario_IO.git 
+y listo 😛
