@@ -10,7 +10,12 @@ Desarrollo:
 ![image](https://user-images.githubusercontent.com/42927218/233186659-45f732ef-55b7-4c00-9000-b71f77c6621f.png)
 
 Para descargarlo primero nesecitas git o la app de github
- <br>```>winget install -e --id Git.Git ```</br>
+```javascript
+winget install -e --id Git.Git 
+```
 ya una ves instalado ir al direcctorio donde quieres que se guarde el programa y poner en en la consola 
- <br>```>git clone https://github.com/wazazky/Formulario_IO.git ``` </br>
+```javascript
+git clone https://github.com/wazazky/Formulario_IO.git
+```
+ <br> </br>
 y listo 😛
