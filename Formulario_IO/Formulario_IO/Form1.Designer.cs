@@ -30,120 +30,104 @@
         {
             this.Tab_Control_Formulario = new MaterialSkin.Controls.MaterialTabControl();
             this.TabTema1 = new System.Windows.Forms.TabPage();
-            this.TabINFO = new System.Windows.Forms.TabPage();
-            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialTextBox2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox1 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox3 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox5 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox6 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox7 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox8 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox9 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialTextBox4 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox10 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox11 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox12 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox13 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox14 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox15 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.materialTextBox16 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox17 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox18 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.materialTextBox19 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox20 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.materialTextBox22 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox23 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox24 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.materialTextBox25 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox26 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox27 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox28 = new MaterialSkin.Controls.MaterialTextBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.materialTextBox32 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox33 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox34 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialTextBox35 = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialFloatingActionButton4 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.materialFloatingActionButton5 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.T1cb = new MaterialSkin.Controls.MaterialComboBox();
+            this.GB_Formula4 = new System.Windows.Forms.GroupBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.T1tbF4_t = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF4_K = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF4_d = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF4_h = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.GB_Formula5 = new System.Windows.Forms.GroupBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.T1tbF5_D = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF5_Q = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.T1tbF5_N = new MaterialSkin.Controls.MaterialTextBox();
+            this.GB_Formula8 = new System.Windows.Forms.GroupBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.T1tbF8_n = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF8_L = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.T1tbF8_pdr = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF8_t = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.GB_Formula7 = new System.Windows.Forms.GroupBox();
+            this.T1tbF7_Le = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.T1tbF7_pdr = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF7_D = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton5 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.GB_Formula6 = new System.Windows.Forms.GroupBox();
+            this.T1tbF6_L = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.T1tbF6_PdR = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF6_D = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton1 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.GB_Formula1 = new System.Windows.Forms.GroupBox();
+            this.T1tbF1_d = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF1_K = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF1_Q1 = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_h = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_Q2 = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_d2 = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_c = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.T1tbF1_T = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton3 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.GB_Formula2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.T1tbF2_Q = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF2_d = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF2_K = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF2_h = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.GB_Formula3 = new System.Windows.Forms.GroupBox();
+            this.T1tbF3_l = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.T1tbF3_h = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF3_c = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.TabTema2 = new System.Windows.Forms.TabPage();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.TabTema3 = new System.Windows.Forms.TabPage();
             this.BajoCosntLabel = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton6 = new MaterialSkin.Controls.MaterialFloatingActionButton();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton7 = new MaterialSkin.Controls.MaterialFloatingActionButton();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.materialFloatingActionButton8 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.TabINFO = new System.Windows.Forms.TabPage();
+            this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialFloatingActionButton9 = new MaterialSkin.Controls.MaterialFloatingActionButton();
             this.Tab_Control_Formulario.SuspendLayout();
             this.TabTema1.SuspendLayout();
-            this.TabINFO.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox9.SuspendLayout();
+            this.GB_Formula4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            this.GB_Formula5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.GB_Formula8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.GB_Formula7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.GB_Formula6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            this.GB_Formula1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -152,22 +136,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.GB_Formula2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.GB_Formula3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.TabTema2.SuspendLayout();
             this.TabTema3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            this.TabINFO.SuspendLayout();
             this.SuspendLayout();
             // 
             // Tab_Control_Formulario
@@ -183,802 +162,92 @@
             this.Tab_Control_Formulario.Multiline = true;
             this.Tab_Control_Formulario.Name = "Tab_Control_Formulario";
             this.Tab_Control_Formulario.SelectedIndex = 0;
-            this.Tab_Control_Formulario.Size = new System.Drawing.Size(1064, 633);
+            this.Tab_Control_Formulario.Size = new System.Drawing.Size(933, 437);
             this.Tab_Control_Formulario.TabIndex = 0;
             // 
             // TabTema1
             // 
-            this.TabTema1.Controls.Add(this.groupBox9);
-            this.TabTema1.Controls.Add(this.groupBox7);
-            this.TabTema1.Controls.Add(this.groupBox6);
-            this.TabTema1.Controls.Add(this.groupBox5);
-            this.TabTema1.Controls.Add(this.groupBox4);
-            this.TabTema1.Controls.Add(this.groupBox3);
-            this.TabTema1.Controls.Add(this.groupBox2);
-            this.TabTema1.Controls.Add(this.groupBox1);
+            this.TabTema1.Controls.Add(this.materialFloatingActionButton9);
+            this.TabTema1.Controls.Add(this.materialFloatingActionButton5);
+            this.TabTema1.Controls.Add(this.T1cb);
+            this.TabTema1.Controls.Add(this.GB_Formula3);
+            this.TabTema1.Controls.Add(this.GB_Formula1);
+            this.TabTema1.Controls.Add(this.GB_Formula4);
+            this.TabTema1.Controls.Add(this.GB_Formula5);
+            this.TabTema1.Controls.Add(this.GB_Formula6);
+            this.TabTema1.Controls.Add(this.GB_Formula8);
+            this.TabTema1.Controls.Add(this.GB_Formula7);
+            this.TabTema1.Controls.Add(this.GB_Formula2);
             this.TabTema1.Location = new System.Drawing.Point(4, 22);
             this.TabTema1.Name = "TabTema1";
             this.TabTema1.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema1.Size = new System.Drawing.Size(1056, 607);
+            this.TabTema1.Size = new System.Drawing.Size(925, 411);
             this.TabTema1.TabIndex = 0;
             this.TabTema1.Text = "Tema 1";
             this.TabTema1.UseVisualStyleBackColor = true;
             // 
-            // TabINFO
-            // 
-            this.TabINFO.BackColor = System.Drawing.Color.Transparent;
-            this.TabINFO.Controls.Add(this.materialLabel1);
-            this.TabINFO.Location = new System.Drawing.Point(4, 22);
-            this.TabINFO.Name = "TabINFO";
-            this.TabINFO.Size = new System.Drawing.Size(1056, 607);
-            this.TabINFO.TabIndex = 3;
-            this.TabINFO.Text = "INFO";
-            // 
-            // materialLabel1
-            // 
-            this.materialLabel1.AutoSize = true;
-            this.materialLabel1.BackColor = System.Drawing.Color.White;
-            this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel1.Location = new System.Drawing.Point(31, 32);
-            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(107, 19);
-            this.materialLabel1.TabIndex = 0;
-            this.materialLabel1.Text = "materialLabel1";
-            // 
-            // materialTextBox2
-            // 
-            this.materialTextBox2.AnimateReadOnly = false;
-            this.materialTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox2.Depth = 0;
-            this.materialTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox2.Hint = "d";
-            this.materialTextBox2.LeadingIcon = null;
-            this.materialTextBox2.Location = new System.Drawing.Point(28, 19);
-            this.materialTextBox2.MaxLength = 50;
-            this.materialTextBox2.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox2.Multiline = false;
-            this.materialTextBox2.Name = "materialTextBox2";
-            this.materialTextBox2.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox2.TabIndex = 1;
-            this.materialTextBox2.Text = "";
-            this.materialTextBox2.TrailingIcon = null;
-            // 
-            // materialTextBox1
-            // 
-            this.materialTextBox1.AnimateReadOnly = false;
-            this.materialTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox1.Depth = 0;
-            this.materialTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox1.Hint = "K";
-            this.materialTextBox1.LeadingIcon = null;
-            this.materialTextBox1.Location = new System.Drawing.Point(137, 19);
-            this.materialTextBox1.MaxLength = 50;
-            this.materialTextBox1.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox1.Multiline = false;
-            this.materialTextBox1.Name = "materialTextBox1";
-            this.materialTextBox1.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox1.TabIndex = 2;
-            this.materialTextBox1.Text = "";
-            this.materialTextBox1.TrailingIcon = null;
-            // 
-            // materialTextBox3
-            // 
-            this.materialTextBox3.AnimateReadOnly = false;
-            this.materialTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox3.Depth = 0;
-            this.materialTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox3.Hint = "Q";
-            this.materialTextBox3.LeadingIcon = null;
-            this.materialTextBox3.Location = new System.Drawing.Point(102, 103);
-            this.materialTextBox3.MaxLength = 50;
-            this.materialTextBox3.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox3.Multiline = false;
-            this.materialTextBox3.Name = "materialTextBox3";
-            this.materialTextBox3.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox3.TabIndex = 3;
-            this.materialTextBox3.Text = "";
-            this.materialTextBox3.TrailingIcon = null;
-            // 
-            // materialTextBox5
-            // 
-            this.materialTextBox5.AnimateReadOnly = false;
-            this.materialTextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox5.Depth = 0;
-            this.materialTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox5.Hint = "Q";
-            this.materialTextBox5.LeadingIcon = null;
-            this.materialTextBox5.Location = new System.Drawing.Point(624, 19);
-            this.materialTextBox5.MaxLength = 50;
-            this.materialTextBox5.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox5.Multiline = false;
-            this.materialTextBox5.Name = "materialTextBox5";
-            this.materialTextBox5.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox5.TabIndex = 6;
-            this.materialTextBox5.Text = "";
-            this.materialTextBox5.TrailingIcon = null;
-            // 
-            // materialTextBox6
-            // 
-            this.materialTextBox6.AnimateReadOnly = false;
-            this.materialTextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox6.Depth = 0;
-            this.materialTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox6.Hint = "h";
-            this.materialTextBox6.LeadingIcon = null;
-            this.materialTextBox6.Location = new System.Drawing.Point(518, 19);
-            this.materialTextBox6.MaxLength = 50;
-            this.materialTextBox6.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox6.Multiline = false;
-            this.materialTextBox6.Name = "materialTextBox6";
-            this.materialTextBox6.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox6.TabIndex = 5;
-            this.materialTextBox6.Text = "";
-            this.materialTextBox6.TrailingIcon = null;
-            // 
-            // materialTextBox7
-            // 
-            this.materialTextBox7.AnimateReadOnly = false;
-            this.materialTextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox7.Depth = 0;
-            this.materialTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox7.Hint = "c";
-            this.materialTextBox7.LeadingIcon = null;
-            this.materialTextBox7.Location = new System.Drawing.Point(383, 57);
-            this.materialTextBox7.MaxLength = 50;
-            this.materialTextBox7.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox7.Multiline = false;
-            this.materialTextBox7.Name = "materialTextBox7";
-            this.materialTextBox7.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox7.TabIndex = 10;
-            this.materialTextBox7.Text = "";
-            this.materialTextBox7.TrailingIcon = null;
-            // 
-            // materialTextBox8
-            // 
-            this.materialTextBox8.AnimateReadOnly = false;
-            this.materialTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox8.Depth = 0;
-            this.materialTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox8.Hint = "d";
-            this.materialTextBox8.LeadingIcon = null;
-            this.materialTextBox8.Location = new System.Drawing.Point(269, 57);
-            this.materialTextBox8.MaxLength = 50;
-            this.materialTextBox8.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox8.Multiline = false;
-            this.materialTextBox8.Name = "materialTextBox8";
-            this.materialTextBox8.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox8.TabIndex = 9;
-            this.materialTextBox8.Text = "";
-            this.materialTextBox8.TrailingIcon = null;
-            // 
-            // materialTextBox9
-            // 
-            this.materialTextBox9.AnimateReadOnly = false;
-            this.materialTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox9.Depth = 0;
-            this.materialTextBox9.Enabled = false;
-            this.materialTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox9.Hint = "T";
-            this.materialTextBox9.LeadingIcon = null;
-            this.materialTextBox9.Location = new System.Drawing.Point(777, 61);
-            this.materialTextBox9.MaxLength = 50;
-            this.materialTextBox9.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox9.Multiline = false;
-            this.materialTextBox9.Name = "materialTextBox9";
-            this.materialTextBox9.Size = new System.Drawing.Size(125, 50);
-            this.materialTextBox9.TabIndex = 14;
-            this.materialTextBox9.Text = "";
-            this.materialTextBox9.TrailingIcon = null;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel3.Location = new System.Drawing.Point(608, 100);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(14, 29);
-            this.materialLabel3.TabIndex = 15;
-            this.materialLabel3.Text = "2";
-            // 
-            // materialTextBox4
-            // 
-            this.materialTextBox4.AnimateReadOnly = false;
-            this.materialTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox4.Depth = 0;
-            this.materialTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox4.Hint = "Q*";
-            this.materialTextBox4.LeadingIcon = null;
-            this.materialTextBox4.Location = new System.Drawing.Point(331, 39);
-            this.materialTextBox4.MaxLength = 50;
-            this.materialTextBox4.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox4.Multiline = false;
-            this.materialTextBox4.Name = "materialTextBox4";
-            this.materialTextBox4.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox4.TabIndex = 19;
-            this.materialTextBox4.Text = "";
-            this.materialTextBox4.TrailingIcon = null;
-            // 
-            // materialTextBox10
-            // 
-            this.materialTextBox10.AnimateReadOnly = false;
-            this.materialTextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox10.Depth = 0;
-            this.materialTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox10.Hint = "K";
-            this.materialTextBox10.LeadingIcon = null;
-            this.materialTextBox10.Location = new System.Drawing.Point(195, 19);
-            this.materialTextBox10.MaxLength = 50;
-            this.materialTextBox10.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox10.Multiline = false;
-            this.materialTextBox10.Name = "materialTextBox10";
-            this.materialTextBox10.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox10.TabIndex = 21;
-            this.materialTextBox10.Text = "";
-            this.materialTextBox10.TrailingIcon = null;
-            // 
-            // materialTextBox11
-            // 
-            this.materialTextBox11.AnimateReadOnly = false;
-            this.materialTextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox11.Depth = 0;
-            this.materialTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox11.Hint = "2*d";
-            this.materialTextBox11.LeadingIcon = null;
-            this.materialTextBox11.Location = new System.Drawing.Point(81, 19);
-            this.materialTextBox11.MaxLength = 50;
-            this.materialTextBox11.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox11.Multiline = false;
-            this.materialTextBox11.Name = "materialTextBox11";
-            this.materialTextBox11.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox11.TabIndex = 20;
-            this.materialTextBox11.Text = "";
-            this.materialTextBox11.TrailingIcon = null;
-            this.materialTextBox11.TextChanged += new System.EventHandler(this.materialTextBox11_TextChanged);
-            // 
-            // materialTextBox12
-            // 
-            this.materialTextBox12.AnimateReadOnly = false;
-            this.materialTextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox12.Depth = 0;
-            this.materialTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox12.Hint = "h";
-            this.materialTextBox12.LeadingIcon = null;
-            this.materialTextBox12.Location = new System.Drawing.Point(129, 103);
-            this.materialTextBox12.MaxLength = 50;
-            this.materialTextBox12.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox12.Multiline = false;
-            this.materialTextBox12.Name = "materialTextBox12";
-            this.materialTextBox12.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox12.TabIndex = 25;
-            this.materialTextBox12.Text = "";
-            this.materialTextBox12.TrailingIcon = null;
-            // 
-            // materialTextBox13
-            // 
-            this.materialTextBox13.AnimateReadOnly = false;
-            this.materialTextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox13.Depth = 0;
-            this.materialTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox13.Hint = "h";
-            this.materialTextBox13.LeadingIcon = null;
-            this.materialTextBox13.Location = new System.Drawing.Point(270, 19);
-            this.materialTextBox13.MaxLength = 50;
-            this.materialTextBox13.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox13.Multiline = false;
-            this.materialTextBox13.Name = "materialTextBox13";
-            this.materialTextBox13.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox13.TabIndex = 27;
-            this.materialTextBox13.Text = "";
-            this.materialTextBox13.TrailingIcon = null;
-            // 
-            // materialTextBox14
-            // 
-            this.materialTextBox14.AnimateReadOnly = false;
-            this.materialTextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox14.Depth = 0;
-            this.materialTextBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox14.Hint = "c";
-            this.materialTextBox14.LeadingIcon = null;
-            this.materialTextBox14.Location = new System.Drawing.Point(129, 19);
-            this.materialTextBox14.MaxLength = 50;
-            this.materialTextBox14.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox14.Multiline = false;
-            this.materialTextBox14.Name = "materialTextBox14";
-            this.materialTextBox14.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox14.TabIndex = 30;
-            this.materialTextBox14.Text = "";
-            this.materialTextBox14.TrailingIcon = null;
-            // 
-            // materialTextBox15
-            // 
-            this.materialTextBox15.AnimateReadOnly = false;
-            this.materialTextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox15.Depth = 0;
-            this.materialTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox15.Hint = "l";
-            this.materialTextBox15.LeadingIcon = null;
-            this.materialTextBox15.Location = new System.Drawing.Point(15, 19);
-            this.materialTextBox15.MaxLength = 50;
-            this.materialTextBox15.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox15.Multiline = false;
-            this.materialTextBox15.Name = "materialTextBox15";
-            this.materialTextBox15.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox15.TabIndex = 29;
-            this.materialTextBox15.Text = "";
-            this.materialTextBox15.TrailingIcon = null;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.pictureBox35);
-            this.groupBox1.Controls.Add(this.materialFloatingActionButton8);
-            this.groupBox1.Controls.Add(this.materialTextBox15);
-            this.groupBox1.Controls.Add(this.pictureBox14);
-            this.groupBox1.Controls.Add(this.materialTextBox13);
-            this.groupBox1.Controls.Add(this.materialTextBox14);
-            this.groupBox1.Controls.Add(this.pictureBox13);
-            this.groupBox1.Location = new System.Drawing.Point(9, 515);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(418, 84);
-            this.groupBox1.TabIndex = 32;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Formula 3";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox24);
-            this.groupBox2.Controls.Add(this.materialFloatingActionButton3);
-            this.groupBox2.Controls.Add(this.pictureBox10);
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.materialTextBox4);
-            this.groupBox2.Controls.Add(this.materialTextBox11);
-            this.groupBox2.Controls.Add(this.materialTextBox10);
-            this.groupBox2.Controls.Add(this.materialTextBox12);
-            this.groupBox2.Controls.Add(this.pictureBox9);
-            this.groupBox2.Controls.Add(this.pictureBox11);
-            this.groupBox2.Location = new System.Drawing.Point(6, 180);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(417, 156);
-            this.groupBox2.TabIndex = 33;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Formula 2";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.pictureBox31);
-            this.groupBox3.Controls.Add(this.materialFloatingActionButton1);
-            this.groupBox3.Controls.Add(this.materialTextBox2);
-            this.groupBox3.Controls.Add(this.materialTextBox1);
-            this.groupBox3.Controls.Add(this.materialTextBox3);
-            this.groupBox3.Controls.Add(this.pictureBox4);
-            this.groupBox3.Controls.Add(this.pictureBox5);
-            this.groupBox3.Controls.Add(this.materialTextBox6);
-            this.groupBox3.Controls.Add(this.pictureBox12);
-            this.groupBox3.Controls.Add(this.materialTextBox5);
-            this.groupBox3.Controls.Add(this.pictureBox8);
-            this.groupBox3.Controls.Add(this.materialTextBox8);
-            this.groupBox3.Controls.Add(this.pictureBox7);
-            this.groupBox3.Controls.Add(this.materialTextBox7);
-            this.groupBox3.Controls.Add(this.pictureBox6);
-            this.groupBox3.Controls.Add(this.pictureBox3);
-            this.groupBox3.Controls.Add(this.materialLabel3);
-            this.groupBox3.Controls.Add(this.materialTextBox9);
-            this.groupBox3.Controls.Add(this.pictureBox1);
-            this.groupBox3.Location = new System.Drawing.Point(6, 6);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(910, 168);
-            this.groupBox3.TabIndex = 34;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Formula 1";
-            // 
-            // materialTextBox16
-            // 
-            this.materialTextBox16.AnimateReadOnly = false;
-            this.materialTextBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox16.Depth = 0;
-            this.materialTextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox16.Hint = "D";
-            this.materialTextBox16.LeadingIcon = null;
-            this.materialTextBox16.Location = new System.Drawing.Point(3, 15);
-            this.materialTextBox16.MaxLength = 50;
-            this.materialTextBox16.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox16.Multiline = false;
-            this.materialTextBox16.Name = "materialTextBox16";
-            this.materialTextBox16.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox16.TabIndex = 32;
-            this.materialTextBox16.Text = "";
-            this.materialTextBox16.TrailingIcon = null;
-            this.materialTextBox16.TextChanged += new System.EventHandler(this.materialTextBox16_TextChanged);
-            // 
-            // materialTextBox17
-            // 
-            this.materialTextBox17.AnimateReadOnly = false;
-            this.materialTextBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox17.Depth = 0;
-            this.materialTextBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox17.Hint = "Q";
-            this.materialTextBox17.LeadingIcon = null;
-            this.materialTextBox17.Location = new System.Drawing.Point(3, 99);
-            this.materialTextBox17.MaxLength = 50;
-            this.materialTextBox17.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox17.Multiline = false;
-            this.materialTextBox17.Name = "materialTextBox17";
-            this.materialTextBox17.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox17.TabIndex = 27;
-            this.materialTextBox17.Text = "";
-            this.materialTextBox17.TrailingIcon = null;
-            // 
-            // materialTextBox18
-            // 
-            this.materialTextBox18.AnimateReadOnly = false;
-            this.materialTextBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox18.Depth = 0;
-            this.materialTextBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox18.Hint = "N";
-            this.materialTextBox18.LeadingIcon = null;
-            this.materialTextBox18.Location = new System.Drawing.Point(170, 54);
-            this.materialTextBox18.MaxLength = 50;
-            this.materialTextBox18.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox18.Multiline = false;
-            this.materialTextBox18.Name = "materialTextBox18";
-            this.materialTextBox18.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox18.TabIndex = 26;
-            this.materialTextBox18.Text = "";
-            this.materialTextBox18.TrailingIcon = null;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.pictureBox32);
-            this.groupBox4.Controls.Add(this.materialFloatingActionButton5);
-            this.groupBox4.Controls.Add(this.materialTextBox19);
-            this.groupBox4.Controls.Add(this.pictureBox17);
-            this.groupBox4.Controls.Add(this.materialTextBox20);
-            this.groupBox4.Controls.Add(this.materialTextBox21);
-            this.groupBox4.Controls.Add(this.pictureBox18);
-            this.groupBox4.Location = new System.Drawing.Point(429, 330);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(510, 84);
-            this.groupBox4.TabIndex = 33;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Formula 6";
-            // 
-            // materialTextBox19
-            // 
-            this.materialTextBox19.AnimateReadOnly = false;
-            this.materialTextBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox19.Depth = 0;
-            this.materialTextBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox19.Hint = "L";
-            this.materialTextBox19.LeadingIcon = null;
-            this.materialTextBox19.Location = new System.Drawing.Point(15, 19);
-            this.materialTextBox19.MaxLength = 50;
-            this.materialTextBox19.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox19.Multiline = false;
-            this.materialTextBox19.Name = "materialTextBox19";
-            this.materialTextBox19.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox19.TabIndex = 29;
-            this.materialTextBox19.Text = "";
-            this.materialTextBox19.TrailingIcon = null;
-            // 
-            // materialTextBox20
-            // 
-            this.materialTextBox20.AnimateReadOnly = false;
-            this.materialTextBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox20.Depth = 0;
-            this.materialTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox20.Hint = "Punto de reorden";
-            this.materialTextBox20.LeadingIcon = null;
-            this.materialTextBox20.Location = new System.Drawing.Point(270, 19);
-            this.materialTextBox20.MaxLength = 50;
-            this.materialTextBox20.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox20.Multiline = false;
-            this.materialTextBox20.Name = "materialTextBox20";
-            this.materialTextBox20.Size = new System.Drawing.Size(172, 50);
-            this.materialTextBox20.TabIndex = 27;
-            this.materialTextBox20.Text = "";
-            this.materialTextBox20.TrailingIcon = null;
-            // 
-            // materialTextBox21
-            // 
-            this.materialTextBox21.AnimateReadOnly = false;
-            this.materialTextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox21.Depth = 0;
-            this.materialTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox21.Hint = "D";
-            this.materialTextBox21.LeadingIcon = null;
-            this.materialTextBox21.Location = new System.Drawing.Point(129, 19);
-            this.materialTextBox21.MaxLength = 50;
-            this.materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox21.Multiline = false;
-            this.materialTextBox21.Name = "materialTextBox21";
-            this.materialTextBox21.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox21.TabIndex = 30;
-            this.materialTextBox21.Text = "";
-            this.materialTextBox21.TrailingIcon = null;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.pictureBox33);
-            this.groupBox5.Controls.Add(this.materialTextBox22);
-            this.groupBox5.Controls.Add(this.materialFloatingActionButton6);
-            this.groupBox5.Controls.Add(this.pictureBox19);
-            this.groupBox5.Controls.Add(this.materialTextBox23);
-            this.groupBox5.Controls.Add(this.materialTextBox24);
-            this.groupBox5.Controls.Add(this.pictureBox20);
-            this.groupBox5.Location = new System.Drawing.Point(429, 420);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(510, 84);
-            this.groupBox5.TabIndex = 34;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Formula 7";
-            // 
-            // materialTextBox22
-            // 
-            this.materialTextBox22.AnimateReadOnly = false;
-            this.materialTextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox22.Depth = 0;
-            this.materialTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox22.Hint = "Le";
-            this.materialTextBox22.LeadingIcon = null;
-            this.materialTextBox22.Location = new System.Drawing.Point(15, 19);
-            this.materialTextBox22.MaxLength = 50;
-            this.materialTextBox22.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox22.Multiline = false;
-            this.materialTextBox22.Name = "materialTextBox22";
-            this.materialTextBox22.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox22.TabIndex = 29;
-            this.materialTextBox22.Text = "";
-            this.materialTextBox22.TrailingIcon = null;
-            // 
-            // materialTextBox23
-            // 
-            this.materialTextBox23.AnimateReadOnly = false;
-            this.materialTextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox23.Depth = 0;
-            this.materialTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox23.Hint = "Punto de reorden";
-            this.materialTextBox23.LeadingIcon = null;
-            this.materialTextBox23.Location = new System.Drawing.Point(270, 19);
-            this.materialTextBox23.MaxLength = 50;
-            this.materialTextBox23.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox23.Multiline = false;
-            this.materialTextBox23.Name = "materialTextBox23";
-            this.materialTextBox23.Size = new System.Drawing.Size(172, 50);
-            this.materialTextBox23.TabIndex = 27;
-            this.materialTextBox23.Text = "";
-            this.materialTextBox23.TrailingIcon = null;
-            // 
-            // materialTextBox24
-            // 
-            this.materialTextBox24.AnimateReadOnly = false;
-            this.materialTextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox24.Depth = 0;
-            this.materialTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox24.Hint = "D";
-            this.materialTextBox24.LeadingIcon = null;
-            this.materialTextBox24.Location = new System.Drawing.Point(129, 19);
-            this.materialTextBox24.MaxLength = 50;
-            this.materialTextBox24.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox24.Multiline = false;
-            this.materialTextBox24.Name = "materialTextBox24";
-            this.materialTextBox24.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox24.TabIndex = 30;
-            this.materialTextBox24.Text = "";
-            this.materialTextBox24.TrailingIcon = null;
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.pictureBox34);
-            this.groupBox6.Controls.Add(this.pictureBox23);
-            this.groupBox6.Controls.Add(this.materialFloatingActionButton7);
-            this.groupBox6.Controls.Add(this.materialTextBox28);
-            this.groupBox6.Controls.Add(this.materialTextBox25);
-            this.groupBox6.Controls.Add(this.pictureBox21);
-            this.groupBox6.Controls.Add(this.materialTextBox26);
-            this.groupBox6.Controls.Add(this.materialTextBox27);
-            this.groupBox6.Controls.Add(this.pictureBox22);
-            this.groupBox6.Location = new System.Drawing.Point(433, 515);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(602, 84);
-            this.groupBox6.TabIndex = 35;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Formula 8";
-            // 
-            // materialTextBox25
-            // 
-            this.materialTextBox25.AnimateReadOnly = false;
-            this.materialTextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox25.Depth = 0;
-            this.materialTextBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox25.Hint = "L";
-            this.materialTextBox25.LeadingIcon = null;
-            this.materialTextBox25.Location = new System.Drawing.Point(15, 19);
-            this.materialTextBox25.MaxLength = 50;
-            this.materialTextBox25.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox25.Multiline = false;
-            this.materialTextBox25.Name = "materialTextBox25";
-            this.materialTextBox25.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox25.TabIndex = 29;
-            this.materialTextBox25.Text = "";
-            this.materialTextBox25.TrailingIcon = null;
-            // 
-            // materialTextBox26
-            // 
-            this.materialTextBox26.AnimateReadOnly = false;
-            this.materialTextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox26.Depth = 0;
-            this.materialTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox26.Hint = "Punto de reorden";
-            this.materialTextBox26.LeadingIcon = null;
-            this.materialTextBox26.Location = new System.Drawing.Point(378, 19);
-            this.materialTextBox26.MaxLength = 50;
-            this.materialTextBox26.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox26.Multiline = false;
-            this.materialTextBox26.Name = "materialTextBox26";
-            this.materialTextBox26.Size = new System.Drawing.Size(149, 50);
-            this.materialTextBox26.TabIndex = 27;
-            this.materialTextBox26.Text = "";
-            this.materialTextBox26.TrailingIcon = null;
-            // 
-            // materialTextBox27
-            // 
-            this.materialTextBox27.AnimateReadOnly = false;
-            this.materialTextBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox27.Depth = 0;
-            this.materialTextBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox27.Hint = "t";
-            this.materialTextBox27.LeadingIcon = null;
-            this.materialTextBox27.Location = new System.Drawing.Point(239, 19);
-            this.materialTextBox27.MaxLength = 50;
-            this.materialTextBox27.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox27.Multiline = false;
-            this.materialTextBox27.Name = "materialTextBox27";
-            this.materialTextBox27.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox27.TabIndex = 30;
-            this.materialTextBox27.Text = "";
-            this.materialTextBox27.TrailingIcon = null;
-            // 
-            // materialTextBox28
-            // 
-            this.materialTextBox28.AnimateReadOnly = false;
-            this.materialTextBox28.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox28.Depth = 0;
-            this.materialTextBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox28.Hint = "T";
-            this.materialTextBox28.LeadingIcon = null;
-            this.materialTextBox28.Location = new System.Drawing.Point(127, 19);
-            this.materialTextBox28.MaxLength = 50;
-            this.materialTextBox28.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox28.Multiline = false;
-            this.materialTextBox28.Name = "materialTextBox28";
-            this.materialTextBox28.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox28.TabIndex = 32;
-            this.materialTextBox28.Text = "";
-            this.materialTextBox28.TrailingIcon = null;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.pictureBox30);
-            this.groupBox7.Controls.Add(this.materialFloatingActionButton2);
-            this.groupBox7.Controls.Add(this.pictureBox16);
-            this.groupBox7.Controls.Add(this.materialTextBox16);
-            this.groupBox7.Controls.Add(this.materialTextBox17);
-            this.groupBox7.Controls.Add(this.pictureBox15);
-            this.groupBox7.Controls.Add(this.materialTextBox18);
-            this.groupBox7.Location = new System.Drawing.Point(430, 175);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(263, 158);
-            this.groupBox7.TabIndex = 36;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Formula 5";
-            // 
-            // groupBox9
-            // 
-            this.groupBox9.Controls.Add(this.pictureBox25);
-            this.groupBox9.Controls.Add(this.materialFloatingActionButton4);
-            this.groupBox9.Controls.Add(this.pictureBox26);
-            this.groupBox9.Controls.Add(this.pictureBox27);
-            this.groupBox9.Controls.Add(this.materialTextBox32);
-            this.groupBox9.Controls.Add(this.materialTextBox33);
-            this.groupBox9.Controls.Add(this.materialTextBox34);
-            this.groupBox9.Controls.Add(this.materialTextBox35);
-            this.groupBox9.Controls.Add(this.pictureBox28);
-            this.groupBox9.Controls.Add(this.pictureBox29);
-            this.groupBox9.Location = new System.Drawing.Point(6, 342);
-            this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(417, 156);
-            this.groupBox9.TabIndex = 34;
-            this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Formula 4";
-            // 
-            // materialTextBox32
-            // 
-            this.materialTextBox32.AnimateReadOnly = false;
-            this.materialTextBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox32.Depth = 0;
-            this.materialTextBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox32.Hint = "t*";
-            this.materialTextBox32.LeadingIcon = null;
-            this.materialTextBox32.Location = new System.Drawing.Point(331, 39);
-            this.materialTextBox32.MaxLength = 50;
-            this.materialTextBox32.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox32.Multiline = false;
-            this.materialTextBox32.Name = "materialTextBox32";
-            this.materialTextBox32.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox32.TabIndex = 19;
-            this.materialTextBox32.Text = "";
-            this.materialTextBox32.TrailingIcon = null;
-            // 
-            // materialTextBox33
-            // 
-            this.materialTextBox33.AnimateReadOnly = false;
-            this.materialTextBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox33.Depth = 0;
-            this.materialTextBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox33.Hint = "2*K";
-            this.materialTextBox33.LeadingIcon = null;
-            this.materialTextBox33.Location = new System.Drawing.Point(137, 19);
-            this.materialTextBox33.MaxLength = 50;
-            this.materialTextBox33.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox33.Multiline = false;
-            this.materialTextBox33.Name = "materialTextBox33";
-            this.materialTextBox33.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox33.TabIndex = 20;
-            this.materialTextBox33.Text = "";
-            this.materialTextBox33.TrailingIcon = null;
-            // 
-            // materialTextBox34
-            // 
-            this.materialTextBox34.AnimateReadOnly = false;
-            this.materialTextBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox34.Depth = 0;
-            this.materialTextBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox34.Hint = "d";
-            this.materialTextBox34.LeadingIcon = null;
-            this.materialTextBox34.Location = new System.Drawing.Point(79, 100);
-            this.materialTextBox34.MaxLength = 50;
-            this.materialTextBox34.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox34.Multiline = false;
-            this.materialTextBox34.Name = "materialTextBox34";
-            this.materialTextBox34.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox34.TabIndex = 21;
-            this.materialTextBox34.Text = "";
-            this.materialTextBox34.TrailingIcon = null;
-            // 
-            // materialTextBox35
-            // 
-            this.materialTextBox35.AnimateReadOnly = false;
-            this.materialTextBox35.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.materialTextBox35.Depth = 0;
-            this.materialTextBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox35.Hint = "h";
-            this.materialTextBox35.LeadingIcon = null;
-            this.materialTextBox35.Location = new System.Drawing.Point(195, 102);
-            this.materialTextBox35.MaxLength = 50;
-            this.materialTextBox35.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox35.Multiline = false;
-            this.materialTextBox35.Name = "materialTextBox35";
-            this.materialTextBox35.Size = new System.Drawing.Size(83, 50);
-            this.materialTextBox35.TabIndex = 25;
-            this.materialTextBox35.Text = "";
-            this.materialTextBox35.TrailingIcon = null;
-            // 
-            // materialFloatingActionButton4
-            // 
-            this.materialFloatingActionButton4.Depth = 0;
-            this.materialFloatingActionButton4.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton4.Location = new System.Drawing.Point(356, 93);
-            this.materialFloatingActionButton4.Mini = true;
-            this.materialFloatingActionButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton4.Name = "materialFloatingActionButton4";
-            this.materialFloatingActionButton4.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton4.TabIndex = 40;
-            this.materialFloatingActionButton4.Text = "materialFloatingActionButton4";
-            this.materialFloatingActionButton4.UseVisualStyleBackColor = true;
+            // materialFloatingActionButton5
+            // 
+            this.materialFloatingActionButton5.Depth = 0;
+            this.materialFloatingActionButton5.Icon = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
+            this.materialFloatingActionButton5.Location = new System.Drawing.Point(332, 9);
+            this.materialFloatingActionButton5.Mini = true;
+            this.materialFloatingActionButton5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFloatingActionButton5.Name = "materialFloatingActionButton5";
+            this.materialFloatingActionButton5.Size = new System.Drawing.Size(40, 40);
+            this.materialFloatingActionButton5.TabIndex = 39;
+            this.materialFloatingActionButton5.Text = "materialFloatingActionButton5";
+            this.materialFloatingActionButton5.UseVisualStyleBackColor = true;
+            this.materialFloatingActionButton5.Click += new System.EventHandler(this.materialFloatingActionButton5_Click);
+            // 
+            // T1cb
+            // 
+            this.T1cb.AutoResize = false;
+            this.T1cb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.T1cb.Depth = 0;
+            this.T1cb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.T1cb.DropDownHeight = 174;
+            this.T1cb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.T1cb.DropDownWidth = 121;
+            this.T1cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.T1cb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.T1cb.FormattingEnabled = true;
+            this.T1cb.IntegralHeight = false;
+            this.T1cb.ItemHeight = 43;
+            this.T1cb.Items.AddRange(new object[] {
+            "Formula 1 ",
+            "Formula 2",
+            "Formula 3 ",
+            "Formula 4 ",
+            "Formula 5 ",
+            "Formula 6",
+            "Formula 7",
+            "Formula 8"});
+            this.T1cb.Location = new System.Drawing.Point(9, 6);
+            this.T1cb.MaxDropDownItems = 4;
+            this.T1cb.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1cb.Name = "T1cb";
+            this.T1cb.Size = new System.Drawing.Size(322, 49);
+            this.T1cb.StartIndex = 0;
+            this.T1cb.TabIndex = 37;
+            this.T1cb.SelectedIndexChanged += new System.EventHandler(this.comboBox_SelectedIndexChanged);
+            // 
+            // GB_Formula4
+            // 
+            this.GB_Formula4.Controls.Add(this.pictureBox26);
+            this.GB_Formula4.Controls.Add(this.pictureBox27);
+            this.GB_Formula4.Controls.Add(this.T1tbF4_t);
+            this.GB_Formula4.Controls.Add(this.T1tbF4_K);
+            this.GB_Formula4.Controls.Add(this.T1tbF4_d);
+            this.GB_Formula4.Controls.Add(this.T1tbF4_h);
+            this.GB_Formula4.Controls.Add(this.pictureBox28);
+            this.GB_Formula4.Controls.Add(this.pictureBox29);
+            this.GB_Formula4.Location = new System.Drawing.Point(6, 61);
+            this.GB_Formula4.Name = "GB_Formula4";
+            this.GB_Formula4.Size = new System.Drawing.Size(417, 156);
+            this.GB_Formula4.TabIndex = 34;
+            this.GB_Formula4.TabStop = false;
+            this.GB_Formula4.Text = "Formula 4";
             // 
             // pictureBox26
             // 
@@ -1000,6 +269,85 @@
             this.pictureBox27.TabIndex = 8;
             this.pictureBox27.TabStop = false;
             // 
+            // T1tbF4_t
+            // 
+            this.T1tbF4_t.AnimateReadOnly = false;
+            this.T1tbF4_t.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF4_t.Depth = 0;
+            this.T1tbF4_t.Enabled = false;
+            this.T1tbF4_t.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF4_t.Hint = "t*";
+            this.T1tbF4_t.LeadingIcon = null;
+            this.T1tbF4_t.Location = new System.Drawing.Point(331, 39);
+            this.T1tbF4_t.MaxLength = 50;
+            this.T1tbF4_t.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF4_t.Multiline = false;
+            this.T1tbF4_t.Name = "T1tbF4_t";
+            this.T1tbF4_t.ReadOnly = true;
+            this.T1tbF4_t.Size = new System.Drawing.Size(83, 36);
+            this.T1tbF4_t.TabIndex = 19;
+            this.T1tbF4_t.Text = "";
+            this.T1tbF4_t.TrailingIcon = null;
+            this.T1tbF4_t.UseTallSize = false;
+            this.T1tbF4_t.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF4_K
+            // 
+            this.T1tbF4_K.AnimateReadOnly = false;
+            this.T1tbF4_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF4_K.Depth = 0;
+            this.T1tbF4_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF4_K.Hint = "2*K";
+            this.T1tbF4_K.LeadingIcon = null;
+            this.T1tbF4_K.Location = new System.Drawing.Point(137, 19);
+            this.T1tbF4_K.MaxLength = 50;
+            this.T1tbF4_K.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF4_K.Multiline = false;
+            this.T1tbF4_K.Name = "T1tbF4_K";
+            this.T1tbF4_K.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF4_K.TabIndex = 20;
+            this.T1tbF4_K.Text = "";
+            this.T1tbF4_K.TrailingIcon = null;
+            this.T1tbF4_K.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF4_d
+            // 
+            this.T1tbF4_d.AnimateReadOnly = false;
+            this.T1tbF4_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF4_d.Depth = 0;
+            this.T1tbF4_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF4_d.Hint = "d";
+            this.T1tbF4_d.LeadingIcon = null;
+            this.T1tbF4_d.Location = new System.Drawing.Point(79, 100);
+            this.T1tbF4_d.MaxLength = 50;
+            this.T1tbF4_d.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF4_d.Multiline = false;
+            this.T1tbF4_d.Name = "T1tbF4_d";
+            this.T1tbF4_d.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF4_d.TabIndex = 21;
+            this.T1tbF4_d.Text = "";
+            this.T1tbF4_d.TrailingIcon = null;
+            this.T1tbF4_d.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF4_h
+            // 
+            this.T1tbF4_h.AnimateReadOnly = false;
+            this.T1tbF4_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF4_h.Depth = 0;
+            this.T1tbF4_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF4_h.Hint = "h";
+            this.T1tbF4_h.LeadingIcon = null;
+            this.T1tbF4_h.Location = new System.Drawing.Point(195, 102);
+            this.T1tbF4_h.MaxLength = 50;
+            this.T1tbF4_h.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF4_h.Multiline = false;
+            this.T1tbF4_h.Name = "T1tbF4_h";
+            this.T1tbF4_h.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF4_h.TabIndex = 25;
+            this.T1tbF4_h.Text = "";
+            this.T1tbF4_h.TrailingIcon = null;
+            this.T1tbF4_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox28
             // 
             this.pictureBox28.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
@@ -1019,18 +367,19 @@
             this.pictureBox29.TabIndex = 24;
             this.pictureBox29.TabStop = false;
             // 
-            // materialFloatingActionButton2
+            // GB_Formula5
             // 
-            this.materialFloatingActionButton2.Depth = 0;
-            this.materialFloatingActionButton2.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton2.Location = new System.Drawing.Point(191, 109);
-            this.materialFloatingActionButton2.Mini = true;
-            this.materialFloatingActionButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton2.Name = "materialFloatingActionButton2";
-            this.materialFloatingActionButton2.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton2.TabIndex = 38;
-            this.materialFloatingActionButton2.Text = "materialFloatingActionButton2";
-            this.materialFloatingActionButton2.UseVisualStyleBackColor = true;
+            this.GB_Formula5.Controls.Add(this.pictureBox16);
+            this.GB_Formula5.Controls.Add(this.T1tbF5_D);
+            this.GB_Formula5.Controls.Add(this.T1tbF5_Q);
+            this.GB_Formula5.Controls.Add(this.pictureBox15);
+            this.GB_Formula5.Controls.Add(this.T1tbF5_N);
+            this.GB_Formula5.Location = new System.Drawing.Point(6, 61);
+            this.GB_Formula5.Name = "GB_Formula5";
+            this.GB_Formula5.Size = new System.Drawing.Size(263, 158);
+            this.GB_Formula5.TabIndex = 36;
+            this.GB_Formula5.TabStop = false;
+            this.GB_Formula5.Text = "Formula 5";
             // 
             // pictureBox16
             // 
@@ -1040,6 +389,44 @@
             this.pictureBox16.Size = new System.Drawing.Size(46, 50);
             this.pictureBox16.TabIndex = 27;
             this.pictureBox16.TabStop = false;
+            // 
+            // T1tbF5_D
+            // 
+            this.T1tbF5_D.AnimateReadOnly = false;
+            this.T1tbF5_D.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF5_D.Depth = 0;
+            this.T1tbF5_D.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF5_D.Hint = "D";
+            this.T1tbF5_D.LeadingIcon = null;
+            this.T1tbF5_D.Location = new System.Drawing.Point(3, 15);
+            this.T1tbF5_D.MaxLength = 50;
+            this.T1tbF5_D.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF5_D.Multiline = false;
+            this.T1tbF5_D.Name = "T1tbF5_D";
+            this.T1tbF5_D.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF5_D.TabIndex = 32;
+            this.T1tbF5_D.Text = "";
+            this.T1tbF5_D.TrailingIcon = null;
+            this.T1tbF5_D.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF5_Q
+            // 
+            this.T1tbF5_Q.AnimateReadOnly = false;
+            this.T1tbF5_Q.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF5_Q.Depth = 0;
+            this.T1tbF5_Q.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF5_Q.Hint = "Q";
+            this.T1tbF5_Q.LeadingIcon = null;
+            this.T1tbF5_Q.Location = new System.Drawing.Point(3, 99);
+            this.T1tbF5_Q.MaxLength = 50;
+            this.T1tbF5_Q.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF5_Q.Multiline = false;
+            this.T1tbF5_Q.Name = "T1tbF5_Q";
+            this.T1tbF5_Q.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF5_Q.TabIndex = 27;
+            this.T1tbF5_Q.Text = "";
+            this.T1tbF5_Q.TrailingIcon = null;
+            this.T1tbF5_Q.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox15
             // 
@@ -1051,6 +438,44 @@
             this.pictureBox15.TabIndex = 26;
             this.pictureBox15.TabStop = false;
             // 
+            // T1tbF5_N
+            // 
+            this.T1tbF5_N.AnimateReadOnly = false;
+            this.T1tbF5_N.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF5_N.Depth = 0;
+            this.T1tbF5_N.Enabled = false;
+            this.T1tbF5_N.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF5_N.Hint = "N";
+            this.T1tbF5_N.LeadingIcon = null;
+            this.T1tbF5_N.Location = new System.Drawing.Point(170, 54);
+            this.T1tbF5_N.MaxLength = 50;
+            this.T1tbF5_N.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF5_N.Multiline = false;
+            this.T1tbF5_N.Name = "T1tbF5_N";
+            this.T1tbF5_N.ReadOnly = true;
+            this.T1tbF5_N.Size = new System.Drawing.Size(83, 36);
+            this.T1tbF5_N.TabIndex = 26;
+            this.T1tbF5_N.Text = "";
+            this.T1tbF5_N.TrailingIcon = null;
+            this.T1tbF5_N.UseTallSize = false;
+            this.T1tbF5_N.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // GB_Formula8
+            // 
+            this.GB_Formula8.Controls.Add(this.pictureBox23);
+            this.GB_Formula8.Controls.Add(this.T1tbF8_n);
+            this.GB_Formula8.Controls.Add(this.T1tbF8_L);
+            this.GB_Formula8.Controls.Add(this.pictureBox21);
+            this.GB_Formula8.Controls.Add(this.T1tbF8_pdr);
+            this.GB_Formula8.Controls.Add(this.T1tbF8_t);
+            this.GB_Formula8.Controls.Add(this.pictureBox22);
+            this.GB_Formula8.Location = new System.Drawing.Point(6, 61);
+            this.GB_Formula8.Name = "GB_Formula8";
+            this.GB_Formula8.Size = new System.Drawing.Size(532, 84);
+            this.GB_Formula8.TabIndex = 35;
+            this.GB_Formula8.TabStop = false;
+            this.GB_Formula8.Text = "Formula 8";
+            // 
             // pictureBox23
             // 
             this.pictureBox23.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
@@ -1060,6 +485,44 @@
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 33;
             this.pictureBox23.TabStop = false;
+            // 
+            // T1tbF8_n
+            // 
+            this.T1tbF8_n.AnimateReadOnly = false;
+            this.T1tbF8_n.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF8_n.Depth = 0;
+            this.T1tbF8_n.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF8_n.Hint = "n";
+            this.T1tbF8_n.LeadingIcon = null;
+            this.T1tbF8_n.Location = new System.Drawing.Point(127, 19);
+            this.T1tbF8_n.MaxLength = 50;
+            this.T1tbF8_n.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF8_n.Multiline = false;
+            this.T1tbF8_n.Name = "T1tbF8_n";
+            this.T1tbF8_n.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF8_n.TabIndex = 32;
+            this.T1tbF8_n.Text = "";
+            this.T1tbF8_n.TrailingIcon = null;
+            this.T1tbF8_n.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF8_L
+            // 
+            this.T1tbF8_L.AnimateReadOnly = false;
+            this.T1tbF8_L.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF8_L.Depth = 0;
+            this.T1tbF8_L.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF8_L.Hint = "L";
+            this.T1tbF8_L.LeadingIcon = null;
+            this.T1tbF8_L.Location = new System.Drawing.Point(15, 19);
+            this.T1tbF8_L.MaxLength = 50;
+            this.T1tbF8_L.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF8_L.Multiline = false;
+            this.T1tbF8_L.Name = "T1tbF8_L";
+            this.T1tbF8_L.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF8_L.TabIndex = 29;
+            this.T1tbF8_L.Text = "";
+            this.T1tbF8_L.TrailingIcon = null;
+            this.T1tbF8_L.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox21
             // 
@@ -1071,6 +534,47 @@
             this.pictureBox21.TabIndex = 31;
             this.pictureBox21.TabStop = false;
             // 
+            // T1tbF8_pdr
+            // 
+            this.T1tbF8_pdr.AnimateReadOnly = false;
+            this.T1tbF8_pdr.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF8_pdr.Depth = 0;
+            this.T1tbF8_pdr.Enabled = false;
+            this.T1tbF8_pdr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF8_pdr.Hint = "Punto de reorden";
+            this.T1tbF8_pdr.LeadingIcon = null;
+            this.T1tbF8_pdr.Location = new System.Drawing.Point(377, 29);
+            this.T1tbF8_pdr.MaxLength = 50;
+            this.T1tbF8_pdr.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF8_pdr.Multiline = false;
+            this.T1tbF8_pdr.Name = "T1tbF8_pdr";
+            this.T1tbF8_pdr.ReadOnly = true;
+            this.T1tbF8_pdr.Size = new System.Drawing.Size(149, 36);
+            this.T1tbF8_pdr.TabIndex = 27;
+            this.T1tbF8_pdr.Text = "";
+            this.T1tbF8_pdr.TrailingIcon = null;
+            this.T1tbF8_pdr.UseTallSize = false;
+            this.T1tbF8_pdr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF8_t
+            // 
+            this.T1tbF8_t.AnimateReadOnly = false;
+            this.T1tbF8_t.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF8_t.Depth = 0;
+            this.T1tbF8_t.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF8_t.Hint = "t";
+            this.T1tbF8_t.LeadingIcon = null;
+            this.T1tbF8_t.Location = new System.Drawing.Point(239, 19);
+            this.T1tbF8_t.MaxLength = 50;
+            this.T1tbF8_t.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF8_t.Multiline = false;
+            this.T1tbF8_t.Name = "T1tbF8_t";
+            this.T1tbF8_t.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF8_t.TabIndex = 30;
+            this.T1tbF8_t.Text = "";
+            this.T1tbF8_t.TrailingIcon = null;
+            this.T1tbF8_t.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox22
             // 
             this.pictureBox22.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
@@ -1079,6 +583,39 @@
             this.pictureBox22.Size = new System.Drawing.Size(46, 50);
             this.pictureBox22.TabIndex = 28;
             this.pictureBox22.TabStop = false;
+            // 
+            // GB_Formula7
+            // 
+            this.GB_Formula7.Controls.Add(this.T1tbF7_Le);
+            this.GB_Formula7.Controls.Add(this.pictureBox19);
+            this.GB_Formula7.Controls.Add(this.T1tbF7_pdr);
+            this.GB_Formula7.Controls.Add(this.T1tbF7_D);
+            this.GB_Formula7.Controls.Add(this.pictureBox20);
+            this.GB_Formula7.Location = new System.Drawing.Point(3, 61);
+            this.GB_Formula7.Name = "GB_Formula7";
+            this.GB_Formula7.Size = new System.Drawing.Size(452, 84);
+            this.GB_Formula7.TabIndex = 34;
+            this.GB_Formula7.TabStop = false;
+            this.GB_Formula7.Text = "Formula 7";
+            // 
+            // T1tbF7_Le
+            // 
+            this.T1tbF7_Le.AnimateReadOnly = false;
+            this.T1tbF7_Le.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF7_Le.Depth = 0;
+            this.T1tbF7_Le.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF7_Le.Hint = "Le";
+            this.T1tbF7_Le.LeadingIcon = null;
+            this.T1tbF7_Le.Location = new System.Drawing.Point(15, 19);
+            this.T1tbF7_Le.MaxLength = 50;
+            this.T1tbF7_Le.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF7_Le.Multiline = false;
+            this.T1tbF7_Le.Name = "T1tbF7_Le";
+            this.T1tbF7_Le.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF7_Le.TabIndex = 29;
+            this.T1tbF7_Le.Text = "";
+            this.T1tbF7_Le.TrailingIcon = null;
+            this.T1tbF7_Le.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox19
             // 
@@ -1090,6 +627,47 @@
             this.pictureBox19.TabIndex = 31;
             this.pictureBox19.TabStop = false;
             // 
+            // T1tbF7_pdr
+            // 
+            this.T1tbF7_pdr.AnimateReadOnly = false;
+            this.T1tbF7_pdr.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF7_pdr.Depth = 0;
+            this.T1tbF7_pdr.Enabled = false;
+            this.T1tbF7_pdr.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF7_pdr.Hint = "Punto de reorden";
+            this.T1tbF7_pdr.LeadingIcon = null;
+            this.T1tbF7_pdr.Location = new System.Drawing.Point(270, 29);
+            this.T1tbF7_pdr.MaxLength = 50;
+            this.T1tbF7_pdr.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF7_pdr.Multiline = false;
+            this.T1tbF7_pdr.Name = "T1tbF7_pdr";
+            this.T1tbF7_pdr.ReadOnly = true;
+            this.T1tbF7_pdr.Size = new System.Drawing.Size(172, 36);
+            this.T1tbF7_pdr.TabIndex = 27;
+            this.T1tbF7_pdr.Text = "";
+            this.T1tbF7_pdr.TrailingIcon = null;
+            this.T1tbF7_pdr.UseTallSize = false;
+            this.T1tbF7_pdr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF7_D
+            // 
+            this.T1tbF7_D.AnimateReadOnly = false;
+            this.T1tbF7_D.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF7_D.Depth = 0;
+            this.T1tbF7_D.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF7_D.Hint = "D";
+            this.T1tbF7_D.LeadingIcon = null;
+            this.T1tbF7_D.Location = new System.Drawing.Point(129, 19);
+            this.T1tbF7_D.MaxLength = 50;
+            this.T1tbF7_D.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF7_D.Multiline = false;
+            this.T1tbF7_D.Name = "T1tbF7_D";
+            this.T1tbF7_D.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF7_D.TabIndex = 30;
+            this.T1tbF7_D.Text = "";
+            this.T1tbF7_D.TrailingIcon = null;
+            this.T1tbF7_D.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox20
             // 
             this.pictureBox20.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
@@ -1099,18 +677,38 @@
             this.pictureBox20.TabIndex = 28;
             this.pictureBox20.TabStop = false;
             // 
-            // materialFloatingActionButton5
+            // GB_Formula6
             // 
-            this.materialFloatingActionButton5.Depth = 0;
-            this.materialFloatingActionButton5.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton5.Location = new System.Drawing.Point(464, 31);
-            this.materialFloatingActionButton5.Mini = true;
-            this.materialFloatingActionButton5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton5.Name = "materialFloatingActionButton5";
-            this.materialFloatingActionButton5.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton5.TabIndex = 39;
-            this.materialFloatingActionButton5.Text = "materialFloatingActionButton5";
-            this.materialFloatingActionButton5.UseVisualStyleBackColor = true;
+            this.GB_Formula6.Controls.Add(this.T1tbF6_L);
+            this.GB_Formula6.Controls.Add(this.pictureBox17);
+            this.GB_Formula6.Controls.Add(this.T1tbF6_PdR);
+            this.GB_Formula6.Controls.Add(this.T1tbF6_D);
+            this.GB_Formula6.Controls.Add(this.pictureBox18);
+            this.GB_Formula6.Location = new System.Drawing.Point(6, 61);
+            this.GB_Formula6.Name = "GB_Formula6";
+            this.GB_Formula6.Size = new System.Drawing.Size(452, 84);
+            this.GB_Formula6.TabIndex = 33;
+            this.GB_Formula6.TabStop = false;
+            this.GB_Formula6.Text = "Formula 6";
+            // 
+            // T1tbF6_L
+            // 
+            this.T1tbF6_L.AnimateReadOnly = false;
+            this.T1tbF6_L.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF6_L.Depth = 0;
+            this.T1tbF6_L.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF6_L.Hint = "L";
+            this.T1tbF6_L.LeadingIcon = null;
+            this.T1tbF6_L.Location = new System.Drawing.Point(15, 19);
+            this.T1tbF6_L.MaxLength = 50;
+            this.T1tbF6_L.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF6_L.Multiline = false;
+            this.T1tbF6_L.Name = "T1tbF6_L";
+            this.T1tbF6_L.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF6_L.TabIndex = 29;
+            this.T1tbF6_L.Text = "";
+            this.T1tbF6_L.TrailingIcon = null;
+            this.T1tbF6_L.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox17
             // 
@@ -1122,6 +720,47 @@
             this.pictureBox17.TabIndex = 31;
             this.pictureBox17.TabStop = false;
             // 
+            // T1tbF6_PdR
+            // 
+            this.T1tbF6_PdR.AnimateReadOnly = false;
+            this.T1tbF6_PdR.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF6_PdR.Depth = 0;
+            this.T1tbF6_PdR.Enabled = false;
+            this.T1tbF6_PdR.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF6_PdR.Hint = "Punto de reorden";
+            this.T1tbF6_PdR.LeadingIcon = null;
+            this.T1tbF6_PdR.Location = new System.Drawing.Point(271, 29);
+            this.T1tbF6_PdR.MaxLength = 50;
+            this.T1tbF6_PdR.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF6_PdR.Multiline = false;
+            this.T1tbF6_PdR.Name = "T1tbF6_PdR";
+            this.T1tbF6_PdR.ReadOnly = true;
+            this.T1tbF6_PdR.Size = new System.Drawing.Size(172, 36);
+            this.T1tbF6_PdR.TabIndex = 27;
+            this.T1tbF6_PdR.Text = "";
+            this.T1tbF6_PdR.TrailingIcon = null;
+            this.T1tbF6_PdR.UseTallSize = false;
+            this.T1tbF6_PdR.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF6_D
+            // 
+            this.T1tbF6_D.AnimateReadOnly = false;
+            this.T1tbF6_D.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF6_D.Depth = 0;
+            this.T1tbF6_D.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF6_D.Hint = "D";
+            this.T1tbF6_D.LeadingIcon = null;
+            this.T1tbF6_D.Location = new System.Drawing.Point(129, 19);
+            this.T1tbF6_D.MaxLength = 50;
+            this.T1tbF6_D.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF6_D.Multiline = false;
+            this.T1tbF6_D.Name = "T1tbF6_D";
+            this.T1tbF6_D.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF6_D.TabIndex = 30;
+            this.T1tbF6_D.Text = "";
+            this.T1tbF6_D.TrailingIcon = null;
+            this.T1tbF6_D.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox18
             // 
             this.pictureBox18.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
@@ -1131,23 +770,96 @@
             this.pictureBox18.TabIndex = 28;
             this.pictureBox18.TabStop = false;
             // 
-            // materialFloatingActionButton1
+            // GB_Formula1
             // 
-            this.materialFloatingActionButton1.Depth = 0;
-            this.materialFloatingActionButton1.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton1.Location = new System.Drawing.Point(826, 117);
-            this.materialFloatingActionButton1.Mini = true;
-            this.materialFloatingActionButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton1.Name = "materialFloatingActionButton1";
-            this.materialFloatingActionButton1.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton1.TabIndex = 37;
-            this.materialFloatingActionButton1.Text = "materialFloatingActionButton1";
-            this.materialFloatingActionButton1.UseVisualStyleBackColor = true;
+            this.GB_Formula1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.GB_Formula1.Controls.Add(this.T1tbF1_T);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_d);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_K);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_Q1);
+            this.GB_Formula1.Controls.Add(this.pictureBox4);
+            this.GB_Formula1.Controls.Add(this.pictureBox5);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_h);
+            this.GB_Formula1.Controls.Add(this.pictureBox12);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_Q2);
+            this.GB_Formula1.Controls.Add(this.pictureBox8);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_d2);
+            this.GB_Formula1.Controls.Add(this.pictureBox7);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_c);
+            this.GB_Formula1.Controls.Add(this.pictureBox6);
+            this.GB_Formula1.Controls.Add(this.pictureBox3);
+            this.GB_Formula1.Controls.Add(this.materialLabel3);
+            this.GB_Formula1.Controls.Add(this.pictureBox1);
+            this.GB_Formula1.Location = new System.Drawing.Point(9, 61);
+            this.GB_Formula1.Name = "GB_Formula1";
+            this.GB_Formula1.Size = new System.Drawing.Size(910, 158);
+            this.GB_Formula1.TabIndex = 34;
+            this.GB_Formula1.TabStop = false;
+            this.GB_Formula1.Text = "Formula 1";
+            // 
+            // T1tbF1_d
+            // 
+            this.T1tbF1_d.AnimateReadOnly = false;
+            this.T1tbF1_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_d.Depth = 0;
+            this.T1tbF1_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_d.Hint = "d";
+            this.T1tbF1_d.LeadingIcon = null;
+            this.T1tbF1_d.Location = new System.Drawing.Point(28, 26);
+            this.T1tbF1_d.MaxLength = 50;
+            this.T1tbF1_d.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_d.Multiline = false;
+            this.T1tbF1_d.Name = "T1tbF1_d";
+            this.T1tbF1_d.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_d.TabIndex = 1;
+            this.T1tbF1_d.Text = "";
+            this.T1tbF1_d.TrailingIcon = null;
+            this.T1tbF1_d.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            this.T1tbF1_d.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_d_KeyUp);
+            // 
+            // T1tbF1_K
+            // 
+            this.T1tbF1_K.AnimateReadOnly = false;
+            this.T1tbF1_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_K.Depth = 0;
+            this.T1tbF1_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_K.Hint = "K";
+            this.T1tbF1_K.LeadingIcon = null;
+            this.T1tbF1_K.Location = new System.Drawing.Point(137, 26);
+            this.T1tbF1_K.MaxLength = 50;
+            this.T1tbF1_K.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_K.Multiline = false;
+            this.T1tbF1_K.Name = "T1tbF1_K";
+            this.T1tbF1_K.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_K.TabIndex = 2;
+            this.T1tbF1_K.Text = "";
+            this.T1tbF1_K.TrailingIcon = null;
+            this.T1tbF1_K.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF1_Q1
+            // 
+            this.T1tbF1_Q1.AnimateReadOnly = false;
+            this.T1tbF1_Q1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_Q1.Depth = 0;
+            this.T1tbF1_Q1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_Q1.Hint = "Q";
+            this.T1tbF1_Q1.LeadingIcon = null;
+            this.T1tbF1_Q1.Location = new System.Drawing.Point(83, 99);
+            this.T1tbF1_Q1.MaxLength = 50;
+            this.T1tbF1_Q1.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_Q1.Multiline = false;
+            this.T1tbF1_Q1.Name = "T1tbF1_Q1";
+            this.T1tbF1_Q1.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_Q1.TabIndex = 3;
+            this.T1tbF1_Q1.Text = "";
+            this.T1tbF1_Q1.TrailingIcon = null;
+            this.T1tbF1_Q1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            this.T1tbF1_Q1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_Q1_KeyUp);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Formulario_IO.Properties.Resources.icons8_más_50;
-            this.pictureBox4.Location = new System.Drawing.Point(454, 61);
+            this.pictureBox4.Location = new System.Drawing.Point(468, 57);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(46, 50);
             this.pictureBox4.TabIndex = 12;
@@ -1162,6 +874,25 @@
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
+            // T1tbF1_h
+            // 
+            this.T1tbF1_h.AnimateReadOnly = false;
+            this.T1tbF1_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_h.Depth = 0;
+            this.T1tbF1_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_h.Hint = "h";
+            this.T1tbF1_h.LeadingIcon = null;
+            this.T1tbF1_h.Location = new System.Drawing.Point(518, 25);
+            this.T1tbF1_h.MaxLength = 50;
+            this.T1tbF1_h.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_h.Multiline = false;
+            this.T1tbF1_h.Name = "T1tbF1_h";
+            this.T1tbF1_h.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_h.TabIndex = 5;
+            this.T1tbF1_h.Text = "";
+            this.T1tbF1_h.TrailingIcon = null;
+            this.T1tbF1_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
@@ -1172,25 +903,84 @@
             this.pictureBox12.TabIndex = 26;
             this.pictureBox12.TabStop = false;
             // 
+            // T1tbF1_Q2
+            // 
+            this.T1tbF1_Q2.AnimateReadOnly = false;
+            this.T1tbF1_Q2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_Q2.Depth = 0;
+            this.T1tbF1_Q2.Enabled = false;
+            this.T1tbF1_Q2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_Q2.Hint = "Q";
+            this.T1tbF1_Q2.LeadingIcon = null;
+            this.T1tbF1_Q2.Location = new System.Drawing.Point(623, 25);
+            this.T1tbF1_Q2.MaxLength = 50;
+            this.T1tbF1_Q2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_Q2.Multiline = false;
+            this.T1tbF1_Q2.Name = "T1tbF1_Q2";
+            this.T1tbF1_Q2.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_Q2.TabIndex = 6;
+            this.T1tbF1_Q2.Text = "";
+            this.T1tbF1_Q2.TrailingIcon = null;
+            this.T1tbF1_Q2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox8.Location = new System.Drawing.Point(601, 30);
+            this.pictureBox8.Location = new System.Drawing.Point(601, 50);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(21, 20);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 18;
             this.pictureBox8.TabStop = false;
             // 
+            // T1tbF1_d2
+            // 
+            this.T1tbF1_d2.AnimateReadOnly = false;
+            this.T1tbF1_d2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_d2.Depth = 0;
+            this.T1tbF1_d2.Enabled = false;
+            this.T1tbF1_d2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_d2.Hint = "d";
+            this.T1tbF1_d2.LeadingIcon = null;
+            this.T1tbF1_d2.Location = new System.Drawing.Point(269, 57);
+            this.T1tbF1_d2.MaxLength = 50;
+            this.T1tbF1_d2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_d2.Multiline = false;
+            this.T1tbF1_d2.Name = "T1tbF1_d2";
+            this.T1tbF1_d2.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_d2.TabIndex = 9;
+            this.T1tbF1_d2.Text = "";
+            this.T1tbF1_d2.TrailingIcon = null;
+            this.T1tbF1_d2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox7.Location = new System.Drawing.Point(114, 30);
+            this.pictureBox7.Location = new System.Drawing.Point(114, 47);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(21, 20);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 17;
             this.pictureBox7.TabStop = false;
+            // 
+            // T1tbF1_c
+            // 
+            this.T1tbF1_c.AnimateReadOnly = false;
+            this.T1tbF1_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_c.Depth = 0;
+            this.T1tbF1_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_c.Hint = "c";
+            this.T1tbF1_c.LeadingIcon = null;
+            this.T1tbF1_c.Location = new System.Drawing.Point(383, 57);
+            this.T1tbF1_c.MaxLength = 50;
+            this.T1tbF1_c.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_c.Multiline = false;
+            this.T1tbF1_c.Name = "T1tbF1_c";
+            this.T1tbF1_c.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_c.TabIndex = 10;
+            this.T1tbF1_c.Text = "";
+            this.T1tbF1_c.TrailingIcon = null;
+            this.T1tbF1_c.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox6
             // 
@@ -1211,6 +1001,41 @@
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
             // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel3.Location = new System.Drawing.Point(608, 100);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(14, 29);
+            this.materialLabel3.TabIndex = 15;
+            this.materialLabel3.Text = "2";
+            // 
+            // T1tbF1_T
+            // 
+            this.T1tbF1_T.AnimateReadOnly = false;
+            this.T1tbF1_T.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_T.Depth = 0;
+            this.T1tbF1_T.Enabled = false;
+            this.T1tbF1_T.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_T.Hint = "T";
+            this.T1tbF1_T.LeadingIcon = null;
+            this.T1tbF1_T.Location = new System.Drawing.Point(777, 61);
+            this.T1tbF1_T.MaxLength = 50;
+            this.T1tbF1_T.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_T.Multiline = false;
+            this.T1tbF1_T.Name = "T1tbF1_T";
+            this.T1tbF1_T.ReadOnly = true;
+            this.T1tbF1_T.Size = new System.Drawing.Size(125, 36);
+            this.T1tbF1_T.TabIndex = 14;
+            this.T1tbF1_T.Text = "";
+            this.T1tbF1_T.TrailingIcon = null;
+            this.T1tbF1_T.UseTallSize = false;
+            this.T1tbF1_T.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
@@ -1221,18 +1046,31 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // materialFloatingActionButton3
+            // GB_Formula2
             // 
-            this.materialFloatingActionButton3.Depth = 0;
-            this.materialFloatingActionButton3.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton3.Location = new System.Drawing.Point(356, 95);
-            this.materialFloatingActionButton3.Mini = true;
-            this.materialFloatingActionButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton3.Name = "materialFloatingActionButton3";
-            this.materialFloatingActionButton3.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton3.TabIndex = 39;
-            this.materialFloatingActionButton3.Text = "materialFloatingActionButton3";
-            this.materialFloatingActionButton3.UseVisualStyleBackColor = true;
+            this.GB_Formula2.Controls.Add(this.pictureBox11);
+            this.GB_Formula2.Controls.Add(this.pictureBox10);
+            this.GB_Formula2.Controls.Add(this.pictureBox2);
+            this.GB_Formula2.Controls.Add(this.T1tbF2_Q);
+            this.GB_Formula2.Controls.Add(this.T1tbF2_d);
+            this.GB_Formula2.Controls.Add(this.T1tbF2_K);
+            this.GB_Formula2.Controls.Add(this.T1tbF2_h);
+            this.GB_Formula2.Controls.Add(this.pictureBox9);
+            this.GB_Formula2.Location = new System.Drawing.Point(7, 61);
+            this.GB_Formula2.Name = "GB_Formula2";
+            this.GB_Formula2.Size = new System.Drawing.Size(417, 156);
+            this.GB_Formula2.TabIndex = 33;
+            this.GB_Formula2.TabStop = false;
+            this.GB_Formula2.Text = "Formula 2";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
+            this.pictureBox11.Location = new System.Drawing.Point(279, 56);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox11.TabIndex = 24;
+            this.pictureBox11.TabStop = false;
             // 
             // pictureBox10
             // 
@@ -1254,24 +1092,127 @@
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
             // 
+            // T1tbF2_Q
+            // 
+            this.T1tbF2_Q.AnimateReadOnly = false;
+            this.T1tbF2_Q.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF2_Q.Depth = 0;
+            this.T1tbF2_Q.Enabled = false;
+            this.T1tbF2_Q.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF2_Q.Hint = "Q*";
+            this.T1tbF2_Q.LeadingIcon = null;
+            this.T1tbF2_Q.Location = new System.Drawing.Point(325, 63);
+            this.T1tbF2_Q.MaxLength = 50;
+            this.T1tbF2_Q.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF2_Q.Multiline = false;
+            this.T1tbF2_Q.Name = "T1tbF2_Q";
+            this.T1tbF2_Q.ReadOnly = true;
+            this.T1tbF2_Q.Size = new System.Drawing.Size(83, 36);
+            this.T1tbF2_Q.TabIndex = 19;
+            this.T1tbF2_Q.Text = "";
+            this.T1tbF2_Q.TrailingIcon = null;
+            this.T1tbF2_Q.UseTallSize = false;
+            this.T1tbF2_Q.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF2_d
+            // 
+            this.T1tbF2_d.AnimateReadOnly = false;
+            this.T1tbF2_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF2_d.Depth = 0;
+            this.T1tbF2_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF2_d.Hint = "2*d";
+            this.T1tbF2_d.LeadingIcon = null;
+            this.T1tbF2_d.Location = new System.Drawing.Point(78, 18);
+            this.T1tbF2_d.MaxLength = 50;
+            this.T1tbF2_d.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF2_d.Multiline = false;
+            this.T1tbF2_d.Name = "T1tbF2_d";
+            this.T1tbF2_d.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF2_d.TabIndex = 20;
+            this.T1tbF2_d.Text = "";
+            this.T1tbF2_d.TrailingIcon = null;
+            this.T1tbF2_d.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF2_K
+            // 
+            this.T1tbF2_K.AnimateReadOnly = false;
+            this.T1tbF2_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF2_K.Depth = 0;
+            this.T1tbF2_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF2_K.Hint = "K";
+            this.T1tbF2_K.LeadingIcon = null;
+            this.T1tbF2_K.Location = new System.Drawing.Point(195, 19);
+            this.T1tbF2_K.MaxLength = 50;
+            this.T1tbF2_K.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF2_K.Multiline = false;
+            this.T1tbF2_K.Name = "T1tbF2_K";
+            this.T1tbF2_K.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF2_K.TabIndex = 21;
+            this.T1tbF2_K.Text = "";
+            this.T1tbF2_K.TrailingIcon = null;
+            this.T1tbF2_K.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF2_h
+            // 
+            this.T1tbF2_h.AnimateReadOnly = false;
+            this.T1tbF2_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF2_h.Depth = 0;
+            this.T1tbF2_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF2_h.Hint = "h";
+            this.T1tbF2_h.LeadingIcon = null;
+            this.T1tbF2_h.Location = new System.Drawing.Point(129, 100);
+            this.T1tbF2_h.MaxLength = 50;
+            this.T1tbF2_h.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF2_h.Multiline = false;
+            this.T1tbF2_h.Name = "T1tbF2_h";
+            this.T1tbF2_h.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF2_h.TabIndex = 25;
+            this.T1tbF2_h.Text = "";
+            this.T1tbF2_h.TrailingIcon = null;
+            this.T1tbF2_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox9.Location = new System.Drawing.Point(168, 39);
+            this.pictureBox9.Location = new System.Drawing.Point(168, 49);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(21, 20);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 22;
             this.pictureBox9.TabStop = false;
             // 
-            // pictureBox11
+            // GB_Formula3
             // 
-            this.pictureBox11.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
-            this.pictureBox11.Location = new System.Drawing.Point(279, 39);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(46, 50);
-            this.pictureBox11.TabIndex = 24;
-            this.pictureBox11.TabStop = false;
+            this.GB_Formula3.Controls.Add(this.T1tbF3_l);
+            this.GB_Formula3.Controls.Add(this.pictureBox14);
+            this.GB_Formula3.Controls.Add(this.T1tbF3_h);
+            this.GB_Formula3.Controls.Add(this.T1tbF3_c);
+            this.GB_Formula3.Controls.Add(this.pictureBox13);
+            this.GB_Formula3.Location = new System.Drawing.Point(6, 61);
+            this.GB_Formula3.Name = "GB_Formula3";
+            this.GB_Formula3.Size = new System.Drawing.Size(362, 84);
+            this.GB_Formula3.TabIndex = 32;
+            this.GB_Formula3.TabStop = false;
+            this.GB_Formula3.Text = "Formula 3";
+            // 
+            // T1tbF3_l
+            // 
+            this.T1tbF3_l.AnimateReadOnly = false;
+            this.T1tbF3_l.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF3_l.Depth = 0;
+            this.T1tbF3_l.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF3_l.Hint = "l";
+            this.T1tbF3_l.LeadingIcon = null;
+            this.T1tbF3_l.Location = new System.Drawing.Point(15, 19);
+            this.T1tbF3_l.MaxLength = 50;
+            this.T1tbF3_l.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF3_l.Multiline = false;
+            this.T1tbF3_l.Name = "T1tbF3_l";
+            this.T1tbF3_l.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF3_l.TabIndex = 29;
+            this.T1tbF3_l.Text = "";
+            this.T1tbF3_l.TrailingIcon = null;
+            this.T1tbF3_l.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox14
             // 
@@ -1282,6 +1223,47 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 31;
             this.pictureBox14.TabStop = false;
+            // 
+            // T1tbF3_h
+            // 
+            this.T1tbF3_h.AnimateReadOnly = false;
+            this.T1tbF3_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF3_h.Depth = 0;
+            this.T1tbF3_h.Enabled = false;
+            this.T1tbF3_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF3_h.Hint = "h";
+            this.T1tbF3_h.LeadingIcon = null;
+            this.T1tbF3_h.Location = new System.Drawing.Point(270, 29);
+            this.T1tbF3_h.MaxLength = 50;
+            this.T1tbF3_h.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF3_h.Multiline = false;
+            this.T1tbF3_h.Name = "T1tbF3_h";
+            this.T1tbF3_h.ReadOnly = true;
+            this.T1tbF3_h.Size = new System.Drawing.Size(83, 36);
+            this.T1tbF3_h.TabIndex = 27;
+            this.T1tbF3_h.Text = "";
+            this.T1tbF3_h.TrailingIcon = null;
+            this.T1tbF3_h.UseTallSize = false;
+            this.T1tbF3_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF3_c
+            // 
+            this.T1tbF3_c.AnimateReadOnly = false;
+            this.T1tbF3_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF3_c.Depth = 0;
+            this.T1tbF3_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF3_c.Hint = "c";
+            this.T1tbF3_c.LeadingIcon = null;
+            this.T1tbF3_c.Location = new System.Drawing.Point(129, 19);
+            this.T1tbF3_c.MaxLength = 50;
+            this.T1tbF3_c.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF3_c.Multiline = false;
+            this.T1tbF3_c.Name = "T1tbF3_c";
+            this.T1tbF3_c.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF3_c.TabIndex = 30;
+            this.T1tbF3_c.Text = "";
+            this.T1tbF3_c.TrailingIcon = null;
+            this.T1tbF3_c.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox13
             // 
@@ -1300,7 +1282,7 @@
             this.TabTema2.Location = new System.Drawing.Point(4, 22);
             this.TabTema2.Name = "TabTema2";
             this.TabTema2.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema2.Size = new System.Drawing.Size(1056, 607);
+            this.TabTema2.Size = new System.Drawing.Size(733, 411);
             this.TabTema2.TabIndex = 1;
             this.TabTema2.Text = "Tema 2";
             this.TabTema2.UseVisualStyleBackColor = true;
@@ -1326,11 +1308,10 @@
             this.TabTema3.Location = new System.Drawing.Point(4, 22);
             this.TabTema3.Name = "TabTema3";
             this.TabTema3.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema3.Size = new System.Drawing.Size(1056, 607);
+            this.TabTema3.Size = new System.Drawing.Size(733, 411);
             this.TabTema3.TabIndex = 2;
             this.TabTema3.Text = "Tema 3";
             this.TabTema3.UseVisualStyleBackColor = true;
-            this.TabTema3.Click += new System.EventHandler(this.TabTema3_Click);
             // 
             // BajoCosntLabel
             // 
@@ -1345,169 +1326,74 @@
             this.BajoCosntLabel.TabIndex = 0;
             this.BajoCosntLabel.Text = "Bajo construccion";
             // 
-            // pictureBox24
+            // TabINFO
             // 
-            this.pictureBox24.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox24.Location = new System.Drawing.Point(331, 104);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox24.TabIndex = 40;
-            this.pictureBox24.TabStop = false;
+            this.TabINFO.BackColor = System.Drawing.Color.Transparent;
+            this.TabINFO.Controls.Add(this.materialLabel1);
+            this.TabINFO.Location = new System.Drawing.Point(4, 22);
+            this.TabINFO.Name = "TabINFO";
+            this.TabINFO.Size = new System.Drawing.Size(1056, 698);
+            this.TabINFO.TabIndex = 3;
+            this.TabINFO.Text = "INFO";
             // 
-            // pictureBox25
+            // materialLabel1
             // 
-            this.pictureBox25.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox25.Location = new System.Drawing.Point(331, 103);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox25.TabIndex = 41;
-            this.pictureBox25.TabStop = false;
+            this.materialLabel1.AutoSize = true;
+            this.materialLabel1.BackColor = System.Drawing.Color.White;
+            this.materialLabel1.Depth = 0;
+            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Location = new System.Drawing.Point(31, 32);
+            this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel1.Name = "materialLabel1";
+            this.materialLabel1.Size = new System.Drawing.Size(107, 19);
+            this.materialLabel1.TabIndex = 0;
+            this.materialLabel1.Text = "materialLabel1";
             // 
-            // pictureBox30
+            // materialFloatingActionButton9
             // 
-            this.pictureBox30.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox30.Location = new System.Drawing.Point(170, 122);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox30.TabIndex = 42;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox31.Location = new System.Drawing.Point(805, 126);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox31.TabIndex = 43;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox32.Location = new System.Drawing.Point(441, 41);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox32.TabIndex = 44;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox33.Location = new System.Drawing.Point(441, 39);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox33.TabIndex = 46;
-            this.pictureBox33.TabStop = false;
-            // 
-            // materialFloatingActionButton6
-            // 
-            this.materialFloatingActionButton6.Depth = 0;
-            this.materialFloatingActionButton6.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton6.Location = new System.Drawing.Point(464, 29);
-            this.materialFloatingActionButton6.Mini = true;
-            this.materialFloatingActionButton6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton6.Name = "materialFloatingActionButton6";
-            this.materialFloatingActionButton6.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton6.TabIndex = 45;
-            this.materialFloatingActionButton6.Text = "materialFloatingActionButton6";
-            this.materialFloatingActionButton6.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox34.Location = new System.Drawing.Point(533, 39);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox34.TabIndex = 46;
-            this.pictureBox34.TabStop = false;
-            // 
-            // materialFloatingActionButton7
-            // 
-            this.materialFloatingActionButton7.Depth = 0;
-            this.materialFloatingActionButton7.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton7.Location = new System.Drawing.Point(556, 29);
-            this.materialFloatingActionButton7.Mini = true;
-            this.materialFloatingActionButton7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton7.Name = "materialFloatingActionButton7";
-            this.materialFloatingActionButton7.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton7.TabIndex = 45;
-            this.materialFloatingActionButton7.Text = "materialFloatingActionButton7";
-            this.materialFloatingActionButton7.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Image = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.pictureBox35.Location = new System.Drawing.Point(351, 39);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox35.TabIndex = 46;
-            this.pictureBox35.TabStop = false;
-            // 
-            // materialFloatingActionButton8
-            // 
-            this.materialFloatingActionButton8.Depth = 0;
-            this.materialFloatingActionButton8.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.materialFloatingActionButton8.Location = new System.Drawing.Point(374, 29);
-            this.materialFloatingActionButton8.Mini = true;
-            this.materialFloatingActionButton8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFloatingActionButton8.Name = "materialFloatingActionButton8";
-            this.materialFloatingActionButton8.Size = new System.Drawing.Size(40, 40);
-            this.materialFloatingActionButton8.TabIndex = 45;
-            this.materialFloatingActionButton8.Text = "materialFloatingActionButton8";
-            this.materialFloatingActionButton8.UseVisualStyleBackColor = true;
+            this.materialFloatingActionButton9.Depth = 0;
+            this.materialFloatingActionButton9.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
+            this.materialFloatingActionButton9.Location = new System.Drawing.Point(378, 1);
+            this.materialFloatingActionButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFloatingActionButton9.Name = "materialFloatingActionButton9";
+            this.materialFloatingActionButton9.Size = new System.Drawing.Size(56, 56);
+            this.materialFloatingActionButton9.TabIndex = 38;
+            this.materialFloatingActionButton9.Text = "materialFloatingActionButton9";
+            this.materialFloatingActionButton9.UseVisualStyleBackColor = true;
+            this.materialFloatingActionButton9.Click += new System.EventHandler(this.materialFloatingActionButton9_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1070, 700);
+            this.ClientSize = new System.Drawing.Size(939, 504);
             this.Controls.Add(this.Tab_Control_Formulario);
             this.DrawerTabControl = this.Tab_Control_Formulario;
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "Form1";
             this.Text = "Formulario I.O.";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Tab_Control_Formulario.ResumeLayout(false);
             this.TabTema1.ResumeLayout(false);
-            this.TabINFO.ResumeLayout(false);
-            this.TabINFO.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox9.ResumeLayout(false);
-            this.groupBox9.PerformLayout();
+            this.GB_Formula4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            this.GB_Formula5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.GB_Formula8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.GB_Formula7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.GB_Formula6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            this.GB_Formula1.ResumeLayout(false);
+            this.GB_Formula1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -1516,24 +1402,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.GB_Formula2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            this.GB_Formula3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.TabTema2.ResumeLayout(false);
             this.TabTema2.PerformLayout();
             this.TabTema3.ResumeLayout(false);
             this.TabTema3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            this.TabINFO.ResumeLayout(false);
+            this.TabINFO.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1548,90 +1430,77 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel BajoCosntLabel;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox3;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox1;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox2;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_Q1;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_K;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_d;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox7;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox8;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_c;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_d2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox5;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox6;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_Q2;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_h;
         private System.Windows.Forms.PictureBox pictureBox4;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox9;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF1_T;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox4;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF2_Q;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox10;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox11;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF2_K;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF2_d;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox12;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox15;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF2_h;
+        private System.Windows.Forms.GroupBox GB_Formula3;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF3_l;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox13;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox14;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF3_h;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF3_c;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox GB_Formula1;
+        private System.Windows.Forms.GroupBox GB_Formula2;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox17;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox16;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox22;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF5_Q;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF5_D;
+        private System.Windows.Forms.GroupBox GB_Formula7;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF7_Le;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox23;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox24;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF7_pdr;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF7_D;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox19;
+        private System.Windows.Forms.GroupBox GB_Formula6;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF6_L;
         private System.Windows.Forms.PictureBox pictureBox17;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox20;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox21;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF6_PdR;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF6_D;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox18;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF5_N;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox GB_Formula8;
         private System.Windows.Forms.PictureBox pictureBox23;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox28;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox25;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF8_n;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF8_L;
         private System.Windows.Forms.PictureBox pictureBox21;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox26;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox27;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF8_pdr;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF8_t;
         private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.GroupBox GB_Formula5;
+        private System.Windows.Forms.GroupBox GB_Formula4;
         private System.Windows.Forms.PictureBox pictureBox26;
         private System.Windows.Forms.PictureBox pictureBox27;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox32;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox33;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox34;
-        private MaterialSkin.Controls.MaterialTextBox materialTextBox35;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF4_t;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF4_K;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF4_d;
+        private MaterialSkin.Controls.MaterialTextBox T1tbF4_h;
         private System.Windows.Forms.PictureBox pictureBox28;
         private System.Windows.Forms.PictureBox pictureBox29;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton1;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton4;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton2;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton3;
         private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton5;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton7;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton6;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton8;
+        private MaterialSkin.Controls.MaterialComboBox T1cb;
+        private MaterialSkin.Controls.MaterialFloatingActionButton materialFloatingActionButton9;
     }
 }
 
