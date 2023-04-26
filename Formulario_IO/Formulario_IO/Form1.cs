@@ -155,7 +155,35 @@ namespace Formulario_IO
                 }
             }
         }
+        
+public static double T_Tema_2(double K, double c, double Q, double h, double S, double d, double p)
+        {
+            return ((d * K) / Q) + (d * c) + ((h * (S * S)) / 2 * Q) + (p * ((Q - S) * (Q - S)) / 2 * Q);
+        }
 
+        public static double Q_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / h) * Math.Sqrt((p + h) / p);
+        }
+
+        public static double S_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / h) * Math.Sqrt(p / (p + h));
+        }
+
+        public static double Q_Minus_S_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / p) * Math.Sqrt(h / (p + h));
+        }
+        public static double t_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * K) / d * h) * Math.Sqrt((p + h) / p);
+        }
+
+        public static double Sd_sobre_Qd_Tema_2(double d, double K, double h, double p)
+        {
+            return p / (p + h);
+        }
 
         public static double formula_1(double d, double K, double c, double Q, double h)
         {
