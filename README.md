@@ -17,5 +17,19 @@ ya una ves instalado ir al direcctorio donde quieres que se guarde el programa y
 ```javascript
 git clone https://github.com/wazazky/Formulario_IO.git
 ```
- <br> </br>
+Integrantes 
+
+ <br>🔹Lizarraga Rodriguez Jesus Alberto | 22212072</br>
+ <br>🔹Torres Murillo Luis Enrique | 22210361</br>
+ <br>🔹Mojica Fajardo Jose Angel | 22210322</br>
+ <br>🔹Mendoza Suarez Ivan Gustavo | 22210910 </br>
+ <br>🔹Alvarez Hernandez Kevin Omar | 22210280 </br>
+ <br>🔹Osuna José Manuel | 22210883 </br>
+ <br>🔹Vara Espinoza Ulises Andres | 21212656 </br>
+ <br>🔹Mojica Fajardo Jose Angel | 22210322 </br>
+ <br>🔹Corrales Quinero Erick | 23211004</br>
+
+ 
 y listo 😛
+
+
