@@ -35,6 +35,13 @@ namespace Formulario_IO
             GB_Formula6.Visible = false;
             GB_Formula7.Visible = false;
             GB_Formula8.Visible = false;
+            GB_T2_Formula1.Visible = true;
+            GB_T2_Formula2.Visible = false;
+            GB_T2_Formula3.Visible = false;
+            GB_T2_Formula4.Visible = false;
+            GB_T2_Formula5.Visible = false;
+            GB_T2_Formula6.Visible = false;
+
 
         }
 
@@ -142,7 +149,7 @@ namespace Formulario_IO
             // Verificar si el objeto TextBox se ha inicializado correctamente
             if (sender != null && sender is MaterialTextBox)
             {
-                // Verificar si el caracter presionado es un número o un punto decimal
+                // Verificar si el carácter presionado es un número o un punto decimal
                 if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
                 {
                     e.Handled = true;
@@ -155,11 +162,39 @@ namespace Formulario_IO
                 }
             }
         }
+        
+public static double T_Tema_2(double K, double c, double Q, double h, double S, double d, double p)
+        {
+            return ((d * K) / Q) + (d * c) + ((h * (S * S)) / 2 * Q) + (p * ((Q - S) * (Q - S)) / 2 * Q);
+        }
 
+        public static double Q_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / h) * Math.Sqrt((p + h) / p);
+        }
+
+        public static double S_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / h) * Math.Sqrt(p / (p + h));
+        }
+
+        public static double Q_Minus_S_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * d * K) / p) * Math.Sqrt(h / (p + h));
+        }
+        public static double t_Tema_2(double d, double K, double h, double p)
+        {
+            return Math.Sqrt((2 * K) / d * h) * Math.Sqrt((p + h) / p);
+        }
+
+        public static double Sd_sobre_Qd_Tema_2(double p, double h)
+        {
+            return p / (p + h);
+        }
 
         public static double formula_1(double d, double K, double c, double Q, double h)
         {
-           // Console.WriteLine(((d * K) / Q) + (d * c) + ((h * Q) / 2));
+           
             return ((d * K) / Q) + (d * c) + ((h * Q) / 2);
         }
         public static double formula_2(double k, double d, double h)
@@ -236,9 +271,9 @@ namespace Formulario_IO
 
                 } // Código que puede lanzar una excepción
             }
-            catch (Exception excepcionA)
+            catch (Exception )
             {
-                MaterialMessageBox.Show("te faltan datos \nRevisale bien🤙",true);
+                MaterialMessageBox.Show("te faltan datos \nRevisarle bien🤙",true);
             }
             
         
@@ -319,6 +354,260 @@ namespace Formulario_IO
         private void materialFloatingActionButton1_Click(object sender, EventArgs e)
         {
             T1tbF1_T.Text = formula_1(double.Parse(T1tbF1_d.Text), double.Parse(T1tbF1_K.Text), double.Parse(T1tbF1_c.Text), double.Parse(T1tbF1_Q1.Text), double.Parse(T1tbF1_h.Text)).ToString();
+        }
+
+        private void t2cb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (t2cb.SelectedIndex)
+            {
+                case 0:
+
+                    GB_T2_Formula1.Visible = true;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = false;
+                   
+                    break;
+                case 1:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = true;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = false;
+                   
+                    break;
+                case 2:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = true;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = false;
+                    
+                    break;
+                case 3:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = true;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = false;
+                 
+                    break;
+                case 4:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = true;
+                    GB_T2_Formula6.Visible = false;
+                 
+                    break;
+                case 5:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = true;
+        
+                    break;
+               
+                    
+                default:
+                    GB_T2_Formula1.Visible = false;
+                    GB_T2_Formula2.Visible = false;
+                    GB_T2_Formula3.Visible = false;
+                    GB_T2_Formula4.Visible = false;
+                    GB_T2_Formula5.Visible = false;
+                    GB_T2_Formula6.Visible = false;
+                
+
+                    break;
+            }
+            TabTema2.Refresh();
+        }
+
+        private void btnCalcT2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (t2cb.SelectedIndex == 0)
+                {
+                    T2tbF1_T.Text = T_Tema_2(double.Parse(T2tbF1_K.Text), double.Parse(T2tbF1_c.Text), double.Parse(T2tbF1_Q.Text), double.Parse(T2tbF1_h.Text), double.Parse(T2tbF1_S.Text), double.Parse(T2tbF1_d.Text), double.Parse(T2tbF1_p.Text)).ToString();
+                }
+                if (t2cb.SelectedIndex == 1)
+                {
+                    T2tbF2_Q.Text = Q_Tema_2(double.Parse(T2tbF2_d.Text), double.Parse(T2tbF2_K.Text), double.Parse(T2tbF2_h.Text), double.Parse(T2tbF2_p.Text)).ToString();
+
+                }
+                if (t2cb.SelectedIndex == 2)
+                {
+                    T2tbF3_S.Text = S_Tema_2(double.Parse(T2tbF3_d.Text), double.Parse(T2tbF3_K.Text), double.Parse(T2tbF3_h.Text), double.Parse(T2tbF3_p.Text)).ToString();
+
+                }
+                if (t2cb.SelectedIndex == 3)
+                {
+                    T2tbF4_QS.Text =Q_Minus_S_Tema_2(double.Parse(T2tbF4_d.Text), double.Parse(T2tbF4_K.Text), double.Parse(T2tbF4_h.Text), double.Parse(T2tbF4_p.Text)).ToString();
+
+                }
+                if (t2cb.SelectedIndex == 4)
+                {
+                    T2tbF5_t.Text = t_Tema_2(double.Parse(T2tbF5_d.Text), double.Parse(T2tbF5_K.Text), double.Parse(T2tbF5_h.Text), double.Parse(T2tbF5_p.Text)).ToString();
+
+
+                }
+                if (t2cb.SelectedIndex == 5)
+                {
+                    T2tbF6_SDQD.Text = Sd_sobre_Qd_Tema_2(double.Parse(T2tbF6_p.Text), double.Parse(T2tbF6_h.Text)).ToString();
+                    
+
+                }
+            
+            }
+
+            catch (Exception)
+            {
+                MaterialMessageBox.Show("te faltan datos \nRevisarle bien🤙", true);
+            }
+
+        }
+
+        private void T2tbF1_d_TextChanged(object sender, EventArgs e)
+        {
+            T2tbF1_d_2.Text=T2tbF1_d.Text;
+        }
+
+        private void T2tbF1_Q_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF1_Q_2.Text=T2tbF1_Q.Text;
+            T2tbF1_Q_3.Text=T2tbF1_Q.Text;
+        }
+
+        private void T2tbF1_h_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF1_h_2.Text=T2tbF1_h.Text;
+        }
+
+        private void T2tbF1_S_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF1_S_2.Text=T2tbF1_S.Text;
+        }
+
+        private void T2tbF2_h_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF2_h_2.Text=T2tbF2_h.Text;
+        }
+
+        private void T2tbF2_p_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF2_p_2.Text=T2tbF2_p.Text;
+        }
+
+        private void T2tbF3_h_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF3_h_2.Text=T2tbF3_h.Text;
+        }
+
+        private void T2tbF3_p_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF3_p_2.Text=T2tbF3_p.Text;
+        }
+
+        private void T2tbF4_p_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF4_p_2.Text=T2tbF4_p.Text;
+        }
+
+        private void T2tbF4_h_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF4_h_2.Text=T2tbF4_h.Text;
+        }
+
+        private void T2tbF6_p_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF6_p_2.Text=T2tbF6_p.Text;
+        }
+
+        private void T2tbF5_h_KeyUp(object sender, KeyEventArgs e)
+        {
+            T2tbF5_h_2.Text=T2tbF5_h.Text;
+            T2tbF5_h_3.Text=T2tbF5_h.Text;
+        }
+
+        private void btnBorrarT2_Click(object sender, EventArgs e)
+        {
+            switch (t2cb.SelectedIndex)
+            {
+                case 0:
+
+                    T2tbF1_c.Text = string.Empty;
+                    T2tbF1_Q.Text = string.Empty;
+                    T2tbF1_d.Text = string.Empty;
+                    T2tbF1_K.Text = string.Empty;
+                    T2tbF1_d_2.Text = string.Empty;
+                    T2tbF1_c.Text = string.Empty;
+                    T2tbF1_h.Text = string.Empty;
+                    T2tbF1_S.Text = string.Empty;
+                    T2tbF1_Q_2.Text = string.Empty;
+                    T2tbF1_p.Text = string.Empty;
+                    T2tbF1_h_2.Text = string.Empty;
+                    T2tbF1_Q_3.Text = string.Empty;
+                    T2tbF1_S_2.Text = string.Empty;
+                    T2tbF1_T.Text = string.Empty;
+                    break;
+                case 1:
+                    T2tbF2_d.Text = string.Empty;
+                    T2tbF2_K.Text = string.Empty;
+                    T2tbF2_p.Text = string.Empty;
+                    T2tbF2_p_2.Text = string.Empty;
+                    T2tbF2_h.Text = string.Empty;
+                    T2tbF2_h_2.Text = string.Empty;
+                    break;
+                case 2:
+                    T2tbF3_S.Text = string.Empty;
+                    T2tbF3_d.Text = string.Empty;
+                    T2tbF3_K.Text = string.Empty;
+                    T2tbF3_h.Text = string.Empty;
+                    T2tbF3_h_2.Text = string.Empty;
+                    T2tbF3_p.Text = string.Empty;
+                    T2tbF3_p_2.Text = string.Empty;
+                    break;
+                case 3:
+                    T2tbF4_QS.Text = string.Empty;
+                    T2tbF4_d.Text = string.Empty;
+                    T2tbF4_K.Text = string.Empty;
+                    T2tbF4_h.Text = string.Empty;
+                    T2tbF4_h_2.Text = string.Empty;
+                    T2tbF4_p.Text = string.Empty;
+                    T2tbF4_p_2.Text = string.Empty;
+                    break;
+                case 4:
+                    
+                    T2tbF5_K.Text = string.Empty;
+                    T2tbF5_d.Text = string.Empty;
+                    T2tbF5_t.Text = string.Empty;
+                    T2tbF5_p.Text = string.Empty;
+                    T2tbF5_h.Text = string.Empty;
+                    T2tbF5_h_2.Text = string.Empty;
+                    T2tbF5_h_3.Text = string.Empty;
+
+                    break;
+                case 5:
+                    T2tbF6_SDQD.Text = string.Empty;
+                    T2tbF6_p.Text = string.Empty;
+                    T2tbF6_p_2.Text = string.Empty;
+                    T2tbF6_h.Text = string.Empty;
+                    break;
+               
+                    
+                default:
+                    //👌
+                    break;
+            }
         }
     }
 }
