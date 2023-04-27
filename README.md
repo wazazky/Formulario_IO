@@ -28,6 +28,7 @@ Integrantes
  <br>🔹Vara Espinoza Ulises Andres | 21212656 </br>
  <br>🔹Mojica Fajardo Jose Angel | 22210322 </br>
  <br>🔹Corrales Quinero Erick | 23211004</br>
+ <br>🔹De Haro Exzacarias Julio Cesar | 22210299</br>
 
  
 y listo 😛
