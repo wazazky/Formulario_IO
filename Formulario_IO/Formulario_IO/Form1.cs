@@ -165,7 +165,13 @@ namespace Formulario_IO
         
 public static double T_Tema_2(double K, double c, double Q, double h, double S, double d, double p)
         {
-            return ((d * K) / Q) + (d * c) + ((h * (S * S)) / 2 * Q) + (p * ((Q - S) * (Q - S)) / 2 * Q);
+            double res1 = (d * K) / Q;
+            double res2 = d * c;
+            double res3 = (h * (S * S)) / (2 * Q);
+            double res4 = (p * ((Q - S) * (Q - S))) /( 2 * Q);
+            double res = res1 + res2 + res3 + res4;
+         
+            return res;
         }
 
         public static double Q_Tema_2(double d, double K, double h, double p)
@@ -485,11 +491,12 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
         {
             T2tbF1_Q_2.Text=T2tbF1_Q.Text;
             T2tbF1_Q_3.Text=T2tbF1_Q.Text;
+            T2tbF1_Q_4.Text=T2tbF1_Q.Text;
         }
 
         private void T2tbF1_h_KeyUp(object sender, KeyEventArgs e)
         {
-            T2tbF1_h_2.Text=T2tbF1_h.Text;
+           
         }
 
         private void T2tbF1_S_KeyUp(object sender, KeyEventArgs e)
@@ -554,7 +561,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     T2tbF1_S.Text = string.Empty;
                     T2tbF1_Q_2.Text = string.Empty;
                     T2tbF1_p.Text = string.Empty;
-                    T2tbF1_h_2.Text = string.Empty;
+                    T2tbF1_Q_4.Text = string.Empty;
                     T2tbF1_Q_3.Text = string.Empty;
                     T2tbF1_S_2.Text = string.Empty;
                     T2tbF1_T.Text = string.Empty;

@@ -30,6 +30,24 @@
         {
             this.Tab_Control_Formulario = new MaterialSkin.Controls.MaterialTabControl();
             this.TabTema1 = new System.Windows.Forms.TabPage();
+            this.GB_Formula1 = new System.Windows.Forms.GroupBox();
+            this.T1tbF1_T = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF1_d = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF1_K = new MaterialSkin.Controls.MaterialTextBox();
+            this.T1tbF1_Q1 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_h = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_Q2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_d2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.T1tbF1_c = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GB_Formula4 = new System.Windows.Forms.GroupBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
@@ -83,25 +101,10 @@
             this.T1tbF2_K = new MaterialSkin.Controls.MaterialTextBox();
             this.T1tbF2_h = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.GB_Formula1 = new System.Windows.Forms.GroupBox();
-            this.T1tbF1_T = new MaterialSkin.Controls.MaterialTextBox();
-            this.T1tbF1_d = new MaterialSkin.Controls.MaterialTextBox();
-            this.T1tbF1_K = new MaterialSkin.Controls.MaterialTextBox();
-            this.T1tbF1_Q1 = new MaterialSkin.Controls.MaterialTextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.T1tbF1_h = new MaterialSkin.Controls.MaterialTextBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.T1tbF1_Q2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.T1tbF1_d2 = new MaterialSkin.Controls.MaterialTextBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.T1tbF1_c = new MaterialSkin.Controls.MaterialTextBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TabTema2 = new System.Windows.Forms.TabPage();
+            this.btnCalcT2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.btnBorrarT2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
+            this.t2cb = new MaterialSkin.Controls.MaterialComboBox();
             this.GB_T2_Formula6 = new System.Windows.Forms.GroupBox();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.T2tbF6_p = new MaterialSkin.Controls.MaterialTextBox();
@@ -184,7 +187,7 @@
             this.T2tbF1_S_2 = new MaterialSkin.Controls.MaterialTextBox();
             this.T2tbF1_Q_3 = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.T2tbF1_h_2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.T2tbF1_Q_4 = new MaterialSkin.Controls.MaterialTextBox();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -211,11 +214,17 @@
             this.BajoCosntLabel = new MaterialSkin.Controls.MaterialLabel();
             this.TabINFO = new System.Windows.Forms.TabPage();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.btnCalcT2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
-            this.btnBorrarT2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
-            this.t2cb = new MaterialSkin.Controls.MaterialComboBox();
             this.Tab_Control_Formulario.SuspendLayout();
             this.TabTema1.SuspendLayout();
+            this.GB_Formula1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.GB_Formula4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
@@ -242,15 +251,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.GB_Formula1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.TabTema2.SuspendLayout();
             this.GB_T2_Formula6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
@@ -343,10 +343,286 @@
             this.TabTema1.Location = new System.Drawing.Point(4, 22);
             this.TabTema1.Name = "TabTema1";
             this.TabTema1.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema1.Size = new System.Drawing.Size(1285, 268);
+            this.TabTema1.Size = new System.Drawing.Size(1285, 327);
             this.TabTema1.TabIndex = 0;
             this.TabTema1.Text = "Tema 1";
             this.TabTema1.UseVisualStyleBackColor = true;
+            // 
+            // GB_Formula1
+            // 
+            this.GB_Formula1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.GB_Formula1.Controls.Add(this.T1tbF1_T);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_d);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_K);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_Q1);
+            this.GB_Formula1.Controls.Add(this.pictureBox4);
+            this.GB_Formula1.Controls.Add(this.pictureBox5);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_h);
+            this.GB_Formula1.Controls.Add(this.pictureBox12);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_Q2);
+            this.GB_Formula1.Controls.Add(this.pictureBox8);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_d2);
+            this.GB_Formula1.Controls.Add(this.pictureBox7);
+            this.GB_Formula1.Controls.Add(this.T1tbF1_c);
+            this.GB_Formula1.Controls.Add(this.pictureBox6);
+            this.GB_Formula1.Controls.Add(this.pictureBox3);
+            this.GB_Formula1.Controls.Add(this.materialLabel3);
+            this.GB_Formula1.Controls.Add(this.pictureBox1);
+            this.GB_Formula1.Location = new System.Drawing.Point(3, 61);
+            this.GB_Formula1.Name = "GB_Formula1";
+            this.GB_Formula1.Size = new System.Drawing.Size(910, 158);
+            this.GB_Formula1.TabIndex = 34;
+            this.GB_Formula1.TabStop = false;
+            this.GB_Formula1.Text = "Formula 1";
+            // 
+            // T1tbF1_T
+            // 
+            this.T1tbF1_T.AnimateReadOnly = false;
+            this.T1tbF1_T.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_T.Depth = 0;
+            this.T1tbF1_T.Enabled = false;
+            this.T1tbF1_T.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_T.Hint = "T";
+            this.T1tbF1_T.LeadingIcon = null;
+            this.T1tbF1_T.Location = new System.Drawing.Point(777, 61);
+            this.T1tbF1_T.MaxLength = 50;
+            this.T1tbF1_T.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_T.Multiline = false;
+            this.T1tbF1_T.Name = "T1tbF1_T";
+            this.T1tbF1_T.ReadOnly = true;
+            this.T1tbF1_T.Size = new System.Drawing.Size(125, 36);
+            this.T1tbF1_T.TabIndex = 14;
+            this.T1tbF1_T.Text = "";
+            this.T1tbF1_T.TrailingIcon = null;
+            this.T1tbF1_T.UseTallSize = false;
+            this.T1tbF1_T.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF1_d
+            // 
+            this.T1tbF1_d.AnimateReadOnly = false;
+            this.T1tbF1_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_d.Depth = 0;
+            this.T1tbF1_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_d.Hint = "d";
+            this.T1tbF1_d.LeadingIcon = null;
+            this.T1tbF1_d.Location = new System.Drawing.Point(28, 26);
+            this.T1tbF1_d.MaxLength = 50;
+            this.T1tbF1_d.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_d.Multiline = false;
+            this.T1tbF1_d.Name = "T1tbF1_d";
+            this.T1tbF1_d.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_d.TabIndex = 1;
+            this.T1tbF1_d.Text = "";
+            this.T1tbF1_d.TrailingIcon = null;
+            this.T1tbF1_d.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            this.T1tbF1_d.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_d_KeyUp);
+            // 
+            // T1tbF1_K
+            // 
+            this.T1tbF1_K.AnimateReadOnly = false;
+            this.T1tbF1_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_K.Depth = 0;
+            this.T1tbF1_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_K.Hint = "K";
+            this.T1tbF1_K.LeadingIcon = null;
+            this.T1tbF1_K.Location = new System.Drawing.Point(137, 26);
+            this.T1tbF1_K.MaxLength = 50;
+            this.T1tbF1_K.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_K.Multiline = false;
+            this.T1tbF1_K.Name = "T1tbF1_K";
+            this.T1tbF1_K.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_K.TabIndex = 2;
+            this.T1tbF1_K.Text = "";
+            this.T1tbF1_K.TrailingIcon = null;
+            this.T1tbF1_K.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T1tbF1_Q1
+            // 
+            this.T1tbF1_Q1.AnimateReadOnly = false;
+            this.T1tbF1_Q1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_Q1.Depth = 0;
+            this.T1tbF1_Q1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_Q1.Hint = "Q";
+            this.T1tbF1_Q1.LeadingIcon = null;
+            this.T1tbF1_Q1.Location = new System.Drawing.Point(83, 99);
+            this.T1tbF1_Q1.MaxLength = 50;
+            this.T1tbF1_Q1.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_Q1.Multiline = false;
+            this.T1tbF1_Q1.Name = "T1tbF1_Q1";
+            this.T1tbF1_Q1.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_Q1.TabIndex = 3;
+            this.T1tbF1_Q1.Text = "";
+            this.T1tbF1_Q1.TrailingIcon = null;
+            this.T1tbF1_Q1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            this.T1tbF1_Q1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_Q1_KeyUp);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Formulario_IO.Properties.Resources.icons8_más_50;
+            this.pictureBox4.Location = new System.Drawing.Point(468, 57);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox4.TabIndex = 12;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
+            this.pictureBox5.Location = new System.Drawing.Point(725, 61);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
+            // 
+            // T1tbF1_h
+            // 
+            this.T1tbF1_h.AnimateReadOnly = false;
+            this.T1tbF1_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_h.Depth = 0;
+            this.T1tbF1_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_h.Hint = "h";
+            this.T1tbF1_h.LeadingIcon = null;
+            this.T1tbF1_h.Location = new System.Drawing.Point(518, 25);
+            this.T1tbF1_h.MaxLength = 50;
+            this.T1tbF1_h.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_h.Multiline = false;
+            this.T1tbF1_h.Name = "T1tbF1_h";
+            this.T1tbF1_h.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_h.TabIndex = 5;
+            this.T1tbF1_h.Text = "";
+            this.T1tbF1_h.TrailingIcon = null;
+            this.T1tbF1_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox12.Location = new System.Drawing.Point(483, 75);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(265, 22);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 26;
+            this.pictureBox12.TabStop = false;
+            // 
+            // T1tbF1_Q2
+            // 
+            this.T1tbF1_Q2.AnimateReadOnly = false;
+            this.T1tbF1_Q2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_Q2.Depth = 0;
+            this.T1tbF1_Q2.Enabled = false;
+            this.T1tbF1_Q2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_Q2.Hint = "Q";
+            this.T1tbF1_Q2.LeadingIcon = null;
+            this.T1tbF1_Q2.Location = new System.Drawing.Point(623, 25);
+            this.T1tbF1_Q2.MaxLength = 50;
+            this.T1tbF1_Q2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_Q2.Multiline = false;
+            this.T1tbF1_Q2.Name = "T1tbF1_Q2";
+            this.T1tbF1_Q2.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_Q2.TabIndex = 6;
+            this.T1tbF1_Q2.Text = "";
+            this.T1tbF1_Q2.TrailingIcon = null;
+            this.T1tbF1_Q2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox8.Location = new System.Drawing.Point(601, 50);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 18;
+            this.pictureBox8.TabStop = false;
+            // 
+            // T1tbF1_d2
+            // 
+            this.T1tbF1_d2.AnimateReadOnly = false;
+            this.T1tbF1_d2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_d2.Depth = 0;
+            this.T1tbF1_d2.Enabled = false;
+            this.T1tbF1_d2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_d2.Hint = "d";
+            this.T1tbF1_d2.LeadingIcon = null;
+            this.T1tbF1_d2.Location = new System.Drawing.Point(269, 57);
+            this.T1tbF1_d2.MaxLength = 50;
+            this.T1tbF1_d2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_d2.Multiline = false;
+            this.T1tbF1_d2.Name = "T1tbF1_d2";
+            this.T1tbF1_d2.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_d2.TabIndex = 9;
+            this.T1tbF1_d2.Text = "";
+            this.T1tbF1_d2.TrailingIcon = null;
+            this.T1tbF1_d2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox7.Location = new System.Drawing.Point(114, 47);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
+            // 
+            // T1tbF1_c
+            // 
+            this.T1tbF1_c.AnimateReadOnly = false;
+            this.T1tbF1_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T1tbF1_c.Depth = 0;
+            this.T1tbF1_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T1tbF1_c.Hint = "c";
+            this.T1tbF1_c.LeadingIcon = null;
+            this.T1tbF1_c.Location = new System.Drawing.Point(383, 57);
+            this.T1tbF1_c.MaxLength = 50;
+            this.T1tbF1_c.MouseState = MaterialSkin.MouseState.OUT;
+            this.T1tbF1_c.Multiline = false;
+            this.T1tbF1_c.Name = "T1tbF1_c";
+            this.T1tbF1_c.Size = new System.Drawing.Size(83, 50);
+            this.T1tbF1_c.TabIndex = 10;
+            this.T1tbF1_c.Text = "";
+            this.T1tbF1_c.TrailingIcon = null;
+            this.T1tbF1_c.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox6.Location = new System.Drawing.Point(356, 77);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Formulario_IO.Properties.Resources.icons8_más_50;
+            this.pictureBox3.Location = new System.Drawing.Point(222, 61);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // materialLabel3
+            // 
+            this.materialLabel3.AutoSize = true;
+            this.materialLabel3.Depth = 0;
+            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel3.Location = new System.Drawing.Point(608, 100);
+            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel3.Name = "materialLabel3";
+            this.materialLabel3.Size = new System.Drawing.Size(14, 29);
+            this.materialLabel3.TabIndex = 15;
+            this.materialLabel3.Text = "2";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 75);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(265, 22);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // GB_Formula4
             // 
@@ -1173,285 +1449,10 @@
             this.pictureBox9.TabIndex = 22;
             this.pictureBox9.TabStop = false;
             // 
-            // GB_Formula1
-            // 
-            this.GB_Formula1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.GB_Formula1.Controls.Add(this.T1tbF1_T);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_d);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_K);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_Q1);
-            this.GB_Formula1.Controls.Add(this.pictureBox4);
-            this.GB_Formula1.Controls.Add(this.pictureBox5);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_h);
-            this.GB_Formula1.Controls.Add(this.pictureBox12);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_Q2);
-            this.GB_Formula1.Controls.Add(this.pictureBox8);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_d2);
-            this.GB_Formula1.Controls.Add(this.pictureBox7);
-            this.GB_Formula1.Controls.Add(this.T1tbF1_c);
-            this.GB_Formula1.Controls.Add(this.pictureBox6);
-            this.GB_Formula1.Controls.Add(this.pictureBox3);
-            this.GB_Formula1.Controls.Add(this.materialLabel3);
-            this.GB_Formula1.Controls.Add(this.pictureBox1);
-            this.GB_Formula1.Location = new System.Drawing.Point(3, 61);
-            this.GB_Formula1.Name = "GB_Formula1";
-            this.GB_Formula1.Size = new System.Drawing.Size(910, 158);
-            this.GB_Formula1.TabIndex = 34;
-            this.GB_Formula1.TabStop = false;
-            this.GB_Formula1.Text = "Formula 1";
-            // 
-            // T1tbF1_T
-            // 
-            this.T1tbF1_T.AnimateReadOnly = false;
-            this.T1tbF1_T.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_T.Depth = 0;
-            this.T1tbF1_T.Enabled = false;
-            this.T1tbF1_T.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_T.Hint = "T";
-            this.T1tbF1_T.LeadingIcon = null;
-            this.T1tbF1_T.Location = new System.Drawing.Point(777, 61);
-            this.T1tbF1_T.MaxLength = 50;
-            this.T1tbF1_T.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_T.Multiline = false;
-            this.T1tbF1_T.Name = "T1tbF1_T";
-            this.T1tbF1_T.ReadOnly = true;
-            this.T1tbF1_T.Size = new System.Drawing.Size(125, 36);
-            this.T1tbF1_T.TabIndex = 14;
-            this.T1tbF1_T.Text = "";
-            this.T1tbF1_T.TrailingIcon = null;
-            this.T1tbF1_T.UseTallSize = false;
-            this.T1tbF1_T.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // T1tbF1_d
-            // 
-            this.T1tbF1_d.AnimateReadOnly = false;
-            this.T1tbF1_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_d.Depth = 0;
-            this.T1tbF1_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_d.Hint = "d";
-            this.T1tbF1_d.LeadingIcon = null;
-            this.T1tbF1_d.Location = new System.Drawing.Point(28, 26);
-            this.T1tbF1_d.MaxLength = 50;
-            this.T1tbF1_d.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_d.Multiline = false;
-            this.T1tbF1_d.Name = "T1tbF1_d";
-            this.T1tbF1_d.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_d.TabIndex = 1;
-            this.T1tbF1_d.Text = "";
-            this.T1tbF1_d.TrailingIcon = null;
-            this.T1tbF1_d.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            this.T1tbF1_d.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_d_KeyUp);
-            // 
-            // T1tbF1_K
-            // 
-            this.T1tbF1_K.AnimateReadOnly = false;
-            this.T1tbF1_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_K.Depth = 0;
-            this.T1tbF1_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_K.Hint = "K";
-            this.T1tbF1_K.LeadingIcon = null;
-            this.T1tbF1_K.Location = new System.Drawing.Point(137, 26);
-            this.T1tbF1_K.MaxLength = 50;
-            this.T1tbF1_K.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_K.Multiline = false;
-            this.T1tbF1_K.Name = "T1tbF1_K";
-            this.T1tbF1_K.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_K.TabIndex = 2;
-            this.T1tbF1_K.Text = "";
-            this.T1tbF1_K.TrailingIcon = null;
-            this.T1tbF1_K.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // T1tbF1_Q1
-            // 
-            this.T1tbF1_Q1.AnimateReadOnly = false;
-            this.T1tbF1_Q1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_Q1.Depth = 0;
-            this.T1tbF1_Q1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_Q1.Hint = "Q";
-            this.T1tbF1_Q1.LeadingIcon = null;
-            this.T1tbF1_Q1.Location = new System.Drawing.Point(83, 99);
-            this.T1tbF1_Q1.MaxLength = 50;
-            this.T1tbF1_Q1.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_Q1.Multiline = false;
-            this.T1tbF1_Q1.Name = "T1tbF1_Q1";
-            this.T1tbF1_Q1.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_Q1.TabIndex = 3;
-            this.T1tbF1_Q1.Text = "";
-            this.T1tbF1_Q1.TrailingIcon = null;
-            this.T1tbF1_Q1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            this.T1tbF1_Q1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.T1tbF1_Q1_KeyUp);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Formulario_IO.Properties.Resources.icons8_más_50;
-            this.pictureBox4.Location = new System.Drawing.Point(468, 57);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 50);
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
-            this.pictureBox5.Location = new System.Drawing.Point(725, 61);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(46, 50);
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
-            // T1tbF1_h
-            // 
-            this.T1tbF1_h.AnimateReadOnly = false;
-            this.T1tbF1_h.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_h.Depth = 0;
-            this.T1tbF1_h.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_h.Hint = "h";
-            this.T1tbF1_h.LeadingIcon = null;
-            this.T1tbF1_h.Location = new System.Drawing.Point(518, 25);
-            this.T1tbF1_h.MaxLength = 50;
-            this.T1tbF1_h.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_h.Multiline = false;
-            this.T1tbF1_h.Name = "T1tbF1_h";
-            this.T1tbF1_h.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_h.TabIndex = 5;
-            this.T1tbF1_h.Text = "";
-            this.T1tbF1_h.TrailingIcon = null;
-            this.T1tbF1_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
-            this.pictureBox12.Location = new System.Drawing.Point(483, 75);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(265, 22);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 26;
-            this.pictureBox12.TabStop = false;
-            // 
-            // T1tbF1_Q2
-            // 
-            this.T1tbF1_Q2.AnimateReadOnly = false;
-            this.T1tbF1_Q2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_Q2.Depth = 0;
-            this.T1tbF1_Q2.Enabled = false;
-            this.T1tbF1_Q2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_Q2.Hint = "Q";
-            this.T1tbF1_Q2.LeadingIcon = null;
-            this.T1tbF1_Q2.Location = new System.Drawing.Point(623, 25);
-            this.T1tbF1_Q2.MaxLength = 50;
-            this.T1tbF1_Q2.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_Q2.Multiline = false;
-            this.T1tbF1_Q2.Name = "T1tbF1_Q2";
-            this.T1tbF1_Q2.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_Q2.TabIndex = 6;
-            this.T1tbF1_Q2.Text = "";
-            this.T1tbF1_Q2.TrailingIcon = null;
-            this.T1tbF1_Q2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox8.Location = new System.Drawing.Point(601, 50);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 18;
-            this.pictureBox8.TabStop = false;
-            // 
-            // T1tbF1_d2
-            // 
-            this.T1tbF1_d2.AnimateReadOnly = false;
-            this.T1tbF1_d2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_d2.Depth = 0;
-            this.T1tbF1_d2.Enabled = false;
-            this.T1tbF1_d2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_d2.Hint = "d";
-            this.T1tbF1_d2.LeadingIcon = null;
-            this.T1tbF1_d2.Location = new System.Drawing.Point(269, 57);
-            this.T1tbF1_d2.MaxLength = 50;
-            this.T1tbF1_d2.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_d2.Multiline = false;
-            this.T1tbF1_d2.Name = "T1tbF1_d2";
-            this.T1tbF1_d2.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_d2.TabIndex = 9;
-            this.T1tbF1_d2.Text = "";
-            this.T1tbF1_d2.TrailingIcon = null;
-            this.T1tbF1_d2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox7.Location = new System.Drawing.Point(114, 47);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 17;
-            this.pictureBox7.TabStop = false;
-            // 
-            // T1tbF1_c
-            // 
-            this.T1tbF1_c.AnimateReadOnly = false;
-            this.T1tbF1_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T1tbF1_c.Depth = 0;
-            this.T1tbF1_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T1tbF1_c.Hint = "c";
-            this.T1tbF1_c.LeadingIcon = null;
-            this.T1tbF1_c.Location = new System.Drawing.Point(383, 57);
-            this.T1tbF1_c.MaxLength = 50;
-            this.T1tbF1_c.MouseState = MaterialSkin.MouseState.OUT;
-            this.T1tbF1_c.Multiline = false;
-            this.T1tbF1_c.Name = "T1tbF1_c";
-            this.T1tbF1_c.Size = new System.Drawing.Size(83, 50);
-            this.T1tbF1_c.TabIndex = 10;
-            this.T1tbF1_c.Text = "";
-            this.T1tbF1_c.TrailingIcon = null;
-            this.T1tbF1_c.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
-            this.pictureBox6.Location = new System.Drawing.Point(356, 77);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Formulario_IO.Properties.Resources.icons8_más_50;
-            this.pictureBox3.Location = new System.Drawing.Point(222, 61);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 50);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // materialLabel3
-            // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel3.Location = new System.Drawing.Point(608, 100);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(14, 29);
-            this.materialLabel3.TabIndex = 15;
-            this.materialLabel3.Text = "2";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 75);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 22);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
             // TabTema2
             // 
             this.TabTema2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TabTema2.Controls.Add(this.GB_T2_Formula1);
             this.TabTema2.Controls.Add(this.btnCalcT2);
             this.TabTema2.Controls.Add(this.btnBorrarT2);
             this.TabTema2.Controls.Add(this.t2cb);
@@ -1460,7 +1461,6 @@
             this.TabTema2.Controls.Add(this.GB_T2_Formula4);
             this.TabTema2.Controls.Add(this.GB_T2_Formula3);
             this.TabTema2.Controls.Add(this.GB_T2_Formula2);
-            this.TabTema2.Controls.Add(this.GB_T2_Formula1);
             this.TabTema2.Location = new System.Drawing.Point(4, 22);
             this.TabTema2.Name = "TabTema2";
             this.TabTema2.Padding = new System.Windows.Forms.Padding(3);
@@ -1468,6 +1468,63 @@
             this.TabTema2.TabIndex = 1;
             this.TabTema2.Text = "Tema 2";
             this.TabTema2.UseVisualStyleBackColor = true;
+            // 
+            // btnCalcT2
+            // 
+            this.btnCalcT2.Depth = 0;
+            this.btnCalcT2.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
+            this.btnCalcT2.Location = new System.Drawing.Point(378, 1);
+            this.btnCalcT2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnCalcT2.Name = "btnCalcT2";
+            this.btnCalcT2.Size = new System.Drawing.Size(56, 56);
+            this.btnCalcT2.TabIndex = 49;
+            this.btnCalcT2.Text = "materialFloatingActionButton1";
+            this.btnCalcT2.UseVisualStyleBackColor = true;
+            this.btnCalcT2.Click += new System.EventHandler(this.btnCalcT2_Click);
+            // 
+            // btnBorrarT2
+            // 
+            this.btnBorrarT2.Depth = 0;
+            this.btnBorrarT2.Icon = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
+            this.btnBorrarT2.Location = new System.Drawing.Point(332, 9);
+            this.btnBorrarT2.Mini = true;
+            this.btnBorrarT2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnBorrarT2.Name = "btnBorrarT2";
+            this.btnBorrarT2.Size = new System.Drawing.Size(40, 40);
+            this.btnBorrarT2.TabIndex = 50;
+            this.btnBorrarT2.Text = "materialFloatingActionButton2";
+            this.btnBorrarT2.UseVisualStyleBackColor = true;
+            this.btnBorrarT2.Click += new System.EventHandler(this.btnBorrarT2_Click);
+            // 
+            // t2cb
+            // 
+            this.t2cb.AutoResize = false;
+            this.t2cb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.t2cb.Depth = 0;
+            this.t2cb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.t2cb.DropDownHeight = 174;
+            this.t2cb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.t2cb.DropDownWidth = 121;
+            this.t2cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.t2cb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.t2cb.FormattingEnabled = true;
+            this.t2cb.IntegralHeight = false;
+            this.t2cb.ItemHeight = 43;
+            this.t2cb.Items.AddRange(new object[] {
+            "Formula 1 ",
+            "Formula 2",
+            "Formula 3 ",
+            "Formula 4 ",
+            "Formula 5 ",
+            "Formula 6"});
+            this.t2cb.Location = new System.Drawing.Point(9, 6);
+            this.t2cb.MaxDropDownItems = 4;
+            this.t2cb.MouseState = MaterialSkin.MouseState.OUT;
+            this.t2cb.Name = "t2cb";
+            this.t2cb.Size = new System.Drawing.Size(322, 49);
+            this.t2cb.StartIndex = 0;
+            this.t2cb.TabIndex = 48;
+            this.t2cb.SelectedIndexChanged += new System.EventHandler(this.t2cb_SelectedIndexChanged);
             // 
             // GB_T2_Formula6
             // 
@@ -1504,7 +1561,7 @@
             this.T2tbF6_p.AnimateReadOnly = false;
             this.T2tbF6_p.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF6_p.Depth = 0;
-            this.T2tbF6_p.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF6_p.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF6_p.Hint = "p";
             this.T2tbF6_p.LeadingIcon = null;
             this.T2tbF6_p.Location = new System.Drawing.Point(97, 9);
@@ -1717,7 +1774,7 @@
             this.T2tbF5_h_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF5_h_2.Depth = 0;
             this.T2tbF5_h_2.Enabled = false;
-            this.T2tbF5_h_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF5_h_2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF5_h_2.Hint = "h";
             this.T2tbF5_h_2.LeadingIcon = null;
             this.T2tbF5_h_2.Location = new System.Drawing.Point(591, 21);
@@ -2021,7 +2078,7 @@
             this.T2tbF4_d.AnimateReadOnly = false;
             this.T2tbF4_d.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF4_d.Depth = 0;
-            this.T2tbF4_d.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF4_d.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF4_d.Hint = "2*d";
             this.T2tbF4_d.LeadingIcon = null;
             this.T2tbF4_d.Location = new System.Drawing.Point(110, 19);
@@ -2040,7 +2097,7 @@
             this.T2tbF4_K.AnimateReadOnly = false;
             this.T2tbF4_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF4_K.Depth = 0;
-            this.T2tbF4_K.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF4_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF4_K.Hint = "K";
             this.T2tbF4_K.LeadingIcon = null;
             this.T2tbF4_K.Location = new System.Drawing.Point(226, 19);
@@ -2283,7 +2340,7 @@
             this.T2tbF3_K.AnimateReadOnly = false;
             this.T2tbF3_K.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF3_K.Depth = 0;
-            this.T2tbF3_K.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF3_K.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF3_K.Hint = "K";
             this.T2tbF3_K.LeadingIcon = null;
             this.T2tbF3_K.Location = new System.Drawing.Point(226, 19);
@@ -2590,7 +2647,7 @@
             this.GB_T2_Formula1.Controls.Add(this.T2tbF1_S_2);
             this.GB_T2_Formula1.Controls.Add(this.T2tbF1_Q_3);
             this.GB_T2_Formula1.Controls.Add(this.pictureBox41);
-            this.GB_T2_Formula1.Controls.Add(this.T2tbF1_h_2);
+            this.GB_T2_Formula1.Controls.Add(this.T2tbF1_Q_4);
             this.GB_T2_Formula1.Controls.Add(this.pictureBox42);
             this.GB_T2_Formula1.Controls.Add(this.materialLabel6);
             this.GB_T2_Formula1.Controls.Add(this.materialLabel4);
@@ -2731,25 +2788,25 @@
             this.pictureBox41.TabIndex = 35;
             this.pictureBox41.TabStop = false;
             // 
-            // T2tbF1_h_2
+            // T2tbF1_Q_4
             // 
-            this.T2tbF1_h_2.AnimateReadOnly = false;
-            this.T2tbF1_h_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.T2tbF1_h_2.Depth = 0;
-            this.T2tbF1_h_2.Enabled = false;
-            this.T2tbF1_h_2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.T2tbF1_h_2.Hint = "(h";
-            this.T2tbF1_h_2.LeadingIcon = null;
-            this.T2tbF1_h_2.Location = new System.Drawing.Point(868, 22);
-            this.T2tbF1_h_2.MaxLength = 50;
-            this.T2tbF1_h_2.MouseState = MaterialSkin.MouseState.OUT;
-            this.T2tbF1_h_2.Multiline = false;
-            this.T2tbF1_h_2.Name = "T2tbF1_h_2";
-            this.T2tbF1_h_2.Size = new System.Drawing.Size(83, 50);
-            this.T2tbF1_h_2.TabIndex = 31;
-            this.T2tbF1_h_2.Text = "";
-            this.T2tbF1_h_2.TrailingIcon = null;
-            this.T2tbF1_h_2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            this.T2tbF1_Q_4.AnimateReadOnly = false;
+            this.T2tbF1_Q_4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T2tbF1_Q_4.Depth = 0;
+            this.T2tbF1_Q_4.Enabled = false;
+            this.T2tbF1_Q_4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF1_Q_4.Hint = "(Q";
+            this.T2tbF1_Q_4.LeadingIcon = null;
+            this.T2tbF1_Q_4.Location = new System.Drawing.Point(868, 22);
+            this.T2tbF1_Q_4.MaxLength = 50;
+            this.T2tbF1_Q_4.MouseState = MaterialSkin.MouseState.OUT;
+            this.T2tbF1_Q_4.Multiline = false;
+            this.T2tbF1_Q_4.Name = "T2tbF1_Q_4";
+            this.T2tbF1_Q_4.Size = new System.Drawing.Size(83, 50);
+            this.T2tbF1_Q_4.TabIndex = 31;
+            this.T2tbF1_Q_4.Text = "";
+            this.T2tbF1_Q_4.TrailingIcon = null;
+            this.T2tbF1_Q_4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // pictureBox42
             // 
@@ -2813,7 +2870,7 @@
             this.T2tbF1_Q_2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.T2tbF1_Q_2.Depth = 0;
             this.T2tbF1_Q_2.Enabled = false;
-            this.T2tbF1_Q_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T2tbF1_Q_2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.T2tbF1_Q_2.Hint = "Q";
             this.T2tbF1_Q_2.LeadingIcon = null;
             this.T2tbF1_Q_2.Location = new System.Drawing.Point(616, 99);
@@ -3076,7 +3133,7 @@
             this.TabTema3.Location = new System.Drawing.Point(4, 22);
             this.TabTema3.Name = "TabTema3";
             this.TabTema3.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema3.Size = new System.Drawing.Size(1923, 804);
+            this.TabTema3.Size = new System.Drawing.Size(1285, 327);
             this.TabTema3.TabIndex = 2;
             this.TabTema3.Text = "Tema 3";
             this.TabTema3.UseVisualStyleBackColor = true;
@@ -3100,7 +3157,7 @@
             this.TabINFO.Controls.Add(this.materialLabel1);
             this.TabINFO.Location = new System.Drawing.Point(4, 22);
             this.TabINFO.Name = "TabINFO";
-            this.TabINFO.Size = new System.Drawing.Size(1923, 804);
+            this.TabINFO.Size = new System.Drawing.Size(1285, 327);
             this.TabINFO.TabIndex = 3;
             this.TabINFO.Text = "INFO";
             // 
@@ -3117,63 +3174,6 @@
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = "materialLabel1";
             // 
-            // btnCalcT2
-            // 
-            this.btnCalcT2.Depth = 0;
-            this.btnCalcT2.Icon = global::Formulario_IO.Properties.Resources.icons8_calculadora_25;
-            this.btnCalcT2.Location = new System.Drawing.Point(378, 1);
-            this.btnCalcT2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnCalcT2.Name = "btnCalcT2";
-            this.btnCalcT2.Size = new System.Drawing.Size(56, 56);
-            this.btnCalcT2.TabIndex = 49;
-            this.btnCalcT2.Text = "materialFloatingActionButton1";
-            this.btnCalcT2.UseVisualStyleBackColor = true;
-            this.btnCalcT2.Click += new System.EventHandler(this.btnCalcT2_Click);
-            // 
-            // btnBorrarT2
-            // 
-            this.btnBorrarT2.Depth = 0;
-            this.btnBorrarT2.Icon = global::Formulario_IO.Properties.Resources.icons8_cerrar_ventana_18;
-            this.btnBorrarT2.Location = new System.Drawing.Point(332, 9);
-            this.btnBorrarT2.Mini = true;
-            this.btnBorrarT2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnBorrarT2.Name = "btnBorrarT2";
-            this.btnBorrarT2.Size = new System.Drawing.Size(40, 40);
-            this.btnBorrarT2.TabIndex = 50;
-            this.btnBorrarT2.Text = "materialFloatingActionButton2";
-            this.btnBorrarT2.UseVisualStyleBackColor = true;
-            this.btnBorrarT2.Click += new System.EventHandler(this.btnBorrarT2_Click);
-            // 
-            // t2cb
-            // 
-            this.t2cb.AutoResize = false;
-            this.t2cb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.t2cb.Depth = 0;
-            this.t2cb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
-            this.t2cb.DropDownHeight = 174;
-            this.t2cb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.t2cb.DropDownWidth = 121;
-            this.t2cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.t2cb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.t2cb.FormattingEnabled = true;
-            this.t2cb.IntegralHeight = false;
-            this.t2cb.ItemHeight = 43;
-            this.t2cb.Items.AddRange(new object[] {
-            "Formula 1 ",
-            "Formula 2",
-            "Formula 3 ",
-            "Formula 4 ",
-            "Formula 5 ",
-            "Formula 6"});
-            this.t2cb.Location = new System.Drawing.Point(9, 6);
-            this.t2cb.MaxDropDownItems = 4;
-            this.t2cb.MouseState = MaterialSkin.MouseState.OUT;
-            this.t2cb.Name = "t2cb";
-            this.t2cb.Size = new System.Drawing.Size(322, 49);
-            this.t2cb.StartIndex = 0;
-            this.t2cb.TabIndex = 48;
-            this.t2cb.SelectedIndexChanged += new System.EventHandler(this.t2cb_SelectedIndexChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3186,6 +3186,16 @@
             this.Text = "Formulario I.O.";
             this.Tab_Control_Formulario.ResumeLayout(false);
             this.TabTema1.ResumeLayout(false);
+            this.GB_Formula1.ResumeLayout(false);
+            this.GB_Formula1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.GB_Formula4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
@@ -3212,16 +3222,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.GB_Formula1.ResumeLayout(false);
-            this.GB_Formula1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.TabTema2.ResumeLayout(false);
             this.GB_T2_Formula6.ResumeLayout(false);
             this.GB_T2_Formula6.PerformLayout();
@@ -3406,7 +3406,7 @@
         private MaterialSkin.Controls.MaterialTextBox T2tbF1_S_2;
         private MaterialSkin.Controls.MaterialTextBox T2tbF1_Q_3;
         private System.Windows.Forms.PictureBox pictureBox41;
-        private MaterialSkin.Controls.MaterialTextBox T2tbF1_h_2;
+        private MaterialSkin.Controls.MaterialTextBox T2tbF1_Q_4;
         private System.Windows.Forms.PictureBox pictureBox42;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private System.Windows.Forms.GroupBox GB_T2_Formula3;
