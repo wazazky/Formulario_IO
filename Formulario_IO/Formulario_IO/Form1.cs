@@ -41,6 +41,13 @@ namespace Formulario_IO
             GB_T2_Formula4.Visible = false;
             GB_T2_Formula5.Visible = false;
             GB_T2_Formula6.Visible = false;
+            GB_T3_Formula1.Visible = true;
+            GB_T3_Formula2.Visible = false;
+            GB_T3_Formula3.Visible = false;
+            GB_T3_Formula4.Visible = false;
+            GB_T3_Formula5.Visible = false;
+            GB_T3_Formula6.Visible = false;
+            GB_T3_Formula7.Visible = false;
 
 
         }
@@ -616,5 +623,196 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     break;
             }
         }
+
+        private void t3cb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (t3cb.SelectedIndex)
+            {
+                case 0:
+                    GB_T3_Formula1.Visible = true;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                
+                    break;
+                case 1:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = true;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                   
+                    break;
+                case 2:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = true;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                 
+                    break;
+                case 3:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = true;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                   
+                    break;
+                case 4:
+                    GB_Formula1.Visible = false;
+                    GB_Formula2.Visible = false;
+                    GB_Formula3.Visible = false;
+                    GB_Formula4.Visible = false;
+                    GB_Formula5.Visible = true;
+                    GB_Formula6.Visible = false;
+                    GB_Formula7.Visible = false;
+                  
+                    break;
+                case 5:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = true;
+                    GB_T3_Formula7.Visible = false;
+                   
+                    break;
+                case 6:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = true;
+               
+                    break;
+              
+                default:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                 
+                    break;
+            }
+        }
+
+        private void TabTema2_Click(object sender, EventArgs e)
+        {
+
+        }
+        public static double T3_Formula1(double R, double Cp, double Ch, double r, double p) {return Math.Sqrt(2 *R*Cp*Ch*(1-(r/p)));}
+        public static double T3_Formula2(double R, double Cp, double Ch, double r, double p) { return Math.Sqrt(2 * R * Cp /(Ch * (1 - (r / p))));}
+        public static double T3_Formula3(double Q, double p) { return Q / p; }
+        public static double T3_Formula4(double R, double Q) { return R / Q; }
+        public static double T3_Formula5(double I, double C) { return I * C; }
+        public static double T3_Formula6(double R, double Dias) { return R/Dias; }
+        public static double T3_Formula7(double P, double Dias) { return P/Dias; }
+
+        private void materialFloatingActionButton1_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                if (t3cb.SelectedIndex == 0)
+                {
+                    T3tbF1_TIC0.Text =T3_Formula1(double.Parse(T3tbF1_R.Text), double.Parse(T3tbF1_Cp.Text), double.Parse(T3tbF1_Ch.Text), double.Parse(T3tbF1_rMin.Text), double.Parse(T3tbF1_p.Text)).ToString();
+                }
+                if (t3cb.SelectedIndex == 1)
+                {
+                    T3tbF2_Q0.Text = T3_Formula2(double.Parse(T3tbF2_R.Text), double.Parse(T3tbF2_Cp.Text), double.Parse(T3tbF2_Ch.Text), double.Parse(T3tbF2_rMin.Text), double.Parse(T3tbF2_p.Text)).ToString();
+
+                }
+                if (t3cb.SelectedIndex == 2)
+                {
+                    T3tbF3_tp.Text = T3_Formula3(double.Parse(T3tbF3_Q.Text), double.Parse(T3tbF3_p.Text)).ToString();
+
+                }
+                if (t3cb.SelectedIndex == 3)
+                {
+                    T3tbF4_N1.Text = T3_Formula4(double.Parse(T3tbF4_R.Text), double.Parse(T3tbF4_Q.Text)).ToString();
+
+                }
+                if (t3cb.SelectedIndex == 4)
+                {
+                    T3tbF5_Ch.Text = T3_Formula5(double.Parse(T3tbF5_I.Text), double.Parse(T3tbF5_C.Text)).ToString();
+
+                }
+                if (t3cb.SelectedIndex == 5)
+                {
+                    T3tbF6_rMin.Text = T3_Formula6(double.Parse(T3tbF6_R.Text), double.Parse(T3tbF6_Dias.Text)).ToString();
+
+                }
+                if (t3cb.SelectedIndex == 6)
+                {
+                    T3tbF7_pMin.Text = formula_7(double.Parse(T3tbF7_P.Text), double.Parse(T3tbF7_Dias.Text)).ToString();
+
+                }
+              // Código que puede lanzar una excepción
+            }
+            catch (Exception)
+            {
+                MaterialMessageBox.Show("te faltan datos \nRevisarle bien🤙", true);
+            }
+
+        }
+
+        private void materialFloatingActionButton2_Click(object sender, EventArgs e)
+        {
+            switch (t3cb.SelectedIndex)
+            {
+                case 0:
+                    T3tbF1_TIC0.Text = string.Empty; T3tbF1_R.Text = string.Empty; T3tbF1_Cp.Text = string.Empty; T3tbF1_Ch.Text = string.Empty; T3tbF1_rMin.Text = string.Empty; T3tbF1_p.Text = string.Empty;
+
+                    break;
+                case 1:
+                    T3tbF2_Q0.Text = string.Empty; T3tbF2_R.Text = string.Empty; T3tbF2_Cp.Text = string.Empty; T3tbF2_Ch.Text = string.Empty; T3tbF2_rMin.Text = string.Empty; T3tbF2_p.Text = string.Empty;
+
+                    break;
+                case 2:
+                    T3tbF3_tp.Text = string.Empty; T3tbF3_Q.Text = string.Empty; T3tbF3_p.Text = string.Empty;
+
+                    break;
+                case 3:
+                    T3tbF4_N1.Text = string.Empty; T3tbF4_R.Text = string.Empty; T3tbF4_Q.Text = string.Empty;
+
+                    break;
+                case 4:
+                    T3tbF5_Ch.Text = string.Empty; T3tbF5_I.Text = string.Empty; T3tbF5_C.Text = string.Empty;
+
+                    break;
+                case 5:
+                    T3tbF6_rMin.Text = string.Empty; T3tbF6_R.Text = string.Empty; T3tbF6_Dias.Text = string.Empty;
+
+                    break;
+                case 6:
+                    T3tbF7_pMin.Text = string.Empty; T3tbF7_P.Text = string.Empty; T3tbF7_Dias.Text = string.Empty;
+                    break;
+                default:
+                    //👌
+                    break;
+            }
+        }
+
+        private void Tab_Control_Formulario_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
