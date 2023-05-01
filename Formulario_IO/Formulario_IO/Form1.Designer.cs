@@ -212,6 +212,21 @@
             this.pictureBox72 = new System.Windows.Forms.PictureBox();
             this.pictureBox73 = new System.Windows.Forms.PictureBox();
             this.TabTema3 = new System.Windows.Forms.TabPage();
+            this.GB_T3_Formula8 = new System.Windows.Forms.GroupBox();
+            this.pictureBox107 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_Co = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox108 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_R2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.T3tbF8_Q2 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox109 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_CAPO = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox106 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_Cp = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox104 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_R1 = new MaterialSkin.Controls.MaterialTextBox();
+            this.T3tbF8_Q1 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox105 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_CAPP = new MaterialSkin.Controls.MaterialTextBox();
             this.GB_T3_Formula7 = new System.Windows.Forms.GroupBox();
             this.pictureBox101 = new System.Windows.Forms.PictureBox();
             this.T3tbF7_P = new MaterialSkin.Controls.MaterialTextBox();
@@ -287,6 +302,24 @@
             this.materialFloatingActionButton2 = new MaterialSkin.Controls.MaterialFloatingActionButton();
             this.t3cb = new MaterialSkin.Controls.MaterialComboBox();
             this.TabINFO = new System.Windows.Forms.TabPage();
+            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.T3tbF8_CAPA = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox110 = new System.Windows.Forms.PictureBox();
+            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.T3tbF8_pMin = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox111 = new System.Windows.Forms.PictureBox();
+            this.pictureBox112 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_rMin = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox113 = new System.Windows.Forms.PictureBox();
+            this.T3tbF8_Q3 = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox114 = new System.Windows.Forms.PictureBox();
+            this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
+            this.T3tbF8_Ch = new MaterialSkin.Controls.MaterialTextBox();
+            this.pictureBox115 = new System.Windows.Forms.PictureBox();
+            this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
             this.Tab_Control_Formulario.SuspendLayout();
             this.TabTema1.SuspendLayout();
             this.GB_Formula5.SuspendLayout();
@@ -381,6 +414,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
             this.TabTema3.SuspendLayout();
+            this.GB_T3_Formula8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).BeginInit();
             this.GB_T3_Formula7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).BeginInit();
@@ -415,6 +455,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).BeginInit();
             this.SuspendLayout();
             // 
             // Tab_Control_Formulario
@@ -430,9 +476,8 @@
             this.Tab_Control_Formulario.Multiline = true;
             this.Tab_Control_Formulario.Name = "Tab_Control_Formulario";
             this.Tab_Control_Formulario.SelectedIndex = 0;
-            this.Tab_Control_Formulario.Size = new System.Drawing.Size(1360, 413);
+            this.Tab_Control_Formulario.Size = new System.Drawing.Size(1218, 409);
             this.Tab_Control_Formulario.TabIndex = 0;
-            this.Tab_Control_Formulario.SelectedIndexChanged += new System.EventHandler(this.Tab_Control_Formulario_SelectedIndexChanged);
             // 
             // TabTema1
             // 
@@ -450,7 +495,7 @@
             this.TabTema1.Location = new System.Drawing.Point(4, 22);
             this.TabTema1.Name = "TabTema1";
             this.TabTema1.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema1.Size = new System.Drawing.Size(1352, 387);
+            this.TabTema1.Size = new System.Drawing.Size(1210, 541);
             this.TabTema1.TabIndex = 0;
             this.TabTema1.Text = "Tema 1";
             this.TabTema1.UseVisualStyleBackColor = true;
@@ -1072,7 +1117,7 @@
             this.GB_Formula1.Controls.Add(this.pictureBox3);
             this.GB_Formula1.Controls.Add(this.materialLabel3);
             this.GB_Formula1.Controls.Add(this.pictureBox1);
-            this.GB_Formula1.Location = new System.Drawing.Point(3, 59);
+            this.GB_Formula1.Location = new System.Drawing.Point(3, 136);
             this.GB_Formula1.Name = "GB_Formula1";
             this.GB_Formula1.Size = new System.Drawing.Size(910, 158);
             this.GB_Formula1.TabIndex = 34;
@@ -1571,7 +1616,7 @@
             this.TabTema2.Location = new System.Drawing.Point(4, 22);
             this.TabTema2.Name = "TabTema2";
             this.TabTema2.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema2.Size = new System.Drawing.Size(1352, 387);
+            this.TabTema2.Size = new System.Drawing.Size(1210, 541);
             this.TabTema2.TabIndex = 1;
             this.TabTema2.Text = "Tema 2";
             this.TabTema2.UseVisualStyleBackColor = true;
@@ -2397,7 +2442,7 @@
             this.GB_T2_Formula1.Controls.Add(this.pictureBox34);
             this.GB_T2_Formula1.Controls.Add(this.materialLabel2);
             this.GB_T2_Formula1.Controls.Add(this.pictureBox35);
-            this.GB_T2_Formula1.Location = new System.Drawing.Point(3, 60);
+            this.GB_T2_Formula1.Location = new System.Drawing.Point(-68, 137);
             this.GB_T2_Formula1.Name = "GB_T2_Formula1";
             this.GB_T2_Formula1.Size = new System.Drawing.Size(1253, 182);
             this.GB_T2_Formula1.TabIndex = 35;
@@ -3236,23 +3281,277 @@
             // TabTema3
             // 
             this.TabTema3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.TabTema3.Controls.Add(this.GB_T3_Formula8);
+            this.TabTema3.Controls.Add(this.GB_T3_Formula1);
             this.TabTema3.Controls.Add(this.GB_T3_Formula7);
             this.TabTema3.Controls.Add(this.GB_T3_Formula6);
             this.TabTema3.Controls.Add(this.GB_T3_Formula4);
             this.TabTema3.Controls.Add(this.GB_T3_Formula5);
             this.TabTema3.Controls.Add(this.GB_T3_Formula3);
             this.TabTema3.Controls.Add(this.GB_T3_Formula2);
-            this.TabTema3.Controls.Add(this.GB_T3_Formula1);
             this.TabTema3.Controls.Add(this.materialFloatingActionButton1);
             this.TabTema3.Controls.Add(this.materialFloatingActionButton2);
             this.TabTema3.Controls.Add(this.t3cb);
             this.TabTema3.Location = new System.Drawing.Point(4, 22);
             this.TabTema3.Name = "TabTema3";
             this.TabTema3.Padding = new System.Windows.Forms.Padding(3);
-            this.TabTema3.Size = new System.Drawing.Size(1352, 387);
+            this.TabTema3.Size = new System.Drawing.Size(1210, 383);
             this.TabTema3.TabIndex = 2;
             this.TabTema3.Text = "Tema 3";
             this.TabTema3.UseVisualStyleBackColor = true;
+            // 
+            // GB_T3_Formula8
+            // 
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel23);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox115);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Ch);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel22);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel21);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel20);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox114);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox113);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Q3);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel17);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_CAPA);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox110);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel18);
+            this.GB_T3_Formula8.Controls.Add(this.materialLabel19);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_pMin);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox111);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox112);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_rMin);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox107);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Co);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox108);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_R2);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Q2);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox109);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_CAPO);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox106);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Cp);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox104);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_R1);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_Q1);
+            this.GB_T3_Formula8.Controls.Add(this.pictureBox105);
+            this.GB_T3_Formula8.Controls.Add(this.T3tbF8_CAPP);
+            this.GB_T3_Formula8.Location = new System.Drawing.Point(3, 55);
+            this.GB_T3_Formula8.Name = "GB_T3_Formula8";
+            this.GB_T3_Formula8.Size = new System.Drawing.Size(1142, 317);
+            this.GB_T3_Formula8.TabIndex = 69;
+            this.GB_T3_Formula8.TabStop = false;
+            this.GB_T3_Formula8.Text = "Formula 8";
+            // 
+            // pictureBox107
+            // 
+            this.pictureBox107.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox107.Location = new System.Drawing.Point(133, 221);
+            this.pictureBox107.Name = "pictureBox107";
+            this.pictureBox107.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox107.TabIndex = 68;
+            this.pictureBox107.TabStop = false;
+            // 
+            // T3tbF8_Co
+            // 
+            this.T3tbF8_Co.AnimateReadOnly = false;
+            this.T3tbF8_Co.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Co.Depth = 0;
+            this.T3tbF8_Co.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Co.Hint = "Co";
+            this.T3tbF8_Co.LeadingIcon = null;
+            this.T3tbF8_Co.Location = new System.Drawing.Point(160, 206);
+            this.T3tbF8_Co.MaxLength = 50;
+            this.T3tbF8_Co.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Co.Multiline = false;
+            this.T3tbF8_Co.Name = "T3tbF8_Co";
+            this.T3tbF8_Co.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Co.TabIndex = 67;
+            this.T3tbF8_Co.Text = "";
+            this.T3tbF8_Co.TrailingIcon = null;
+            this.T3tbF8_Co.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox108
+            // 
+            this.pictureBox108.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
+            this.pictureBox108.Location = new System.Drawing.Point(249, 204);
+            this.pictureBox108.Name = "pictureBox108";
+            this.pictureBox108.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox108.TabIndex = 64;
+            this.pictureBox108.TabStop = false;
+            // 
+            // T3tbF8_R2
+            // 
+            this.T3tbF8_R2.AnimateReadOnly = false;
+            this.T3tbF8_R2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_R2.Depth = 0;
+            this.T3tbF8_R2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_R2.Hint = "R";
+            this.T3tbF8_R2.LeadingIcon = null;
+            this.T3tbF8_R2.Location = new System.Drawing.Point(30, 164);
+            this.T3tbF8_R2.MaxLength = 50;
+            this.T3tbF8_R2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_R2.Multiline = false;
+            this.T3tbF8_R2.Name = "T3tbF8_R2";
+            this.T3tbF8_R2.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_R2.TabIndex = 66;
+            this.T3tbF8_R2.Text = "";
+            this.T3tbF8_R2.TrailingIcon = null;
+            this.T3tbF8_R2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T3tbF8_Q2
+            // 
+            this.T3tbF8_Q2.AnimateReadOnly = false;
+            this.T3tbF8_Q2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Q2.Depth = 0;
+            this.T3tbF8_Q2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Q2.Hint = "Q";
+            this.T3tbF8_Q2.LeadingIcon = null;
+            this.T3tbF8_Q2.Location = new System.Drawing.Point(30, 248);
+            this.T3tbF8_Q2.MaxLength = 50;
+            this.T3tbF8_Q2.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Q2.Multiline = false;
+            this.T3tbF8_Q2.Name = "T3tbF8_Q2";
+            this.T3tbF8_Q2.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Q2.TabIndex = 65;
+            this.T3tbF8_Q2.Text = "";
+            this.T3tbF8_Q2.TrailingIcon = null;
+            this.T3tbF8_Q2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox109
+            // 
+            this.pictureBox109.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox109.Location = new System.Drawing.Point(17, 220);
+            this.pictureBox109.Name = "pictureBox109";
+            this.pictureBox109.Size = new System.Drawing.Size(137, 22);
+            this.pictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox109.TabIndex = 62;
+            this.pictureBox109.TabStop = false;
+            // 
+            // T3tbF8_CAPO
+            // 
+            this.T3tbF8_CAPO.AnimateReadOnly = false;
+            this.T3tbF8_CAPO.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_CAPO.Depth = 0;
+            this.T3tbF8_CAPO.Enabled = false;
+            this.T3tbF8_CAPO.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_CAPO.LeadingIcon = null;
+            this.T3tbF8_CAPO.Location = new System.Drawing.Point(301, 217);
+            this.T3tbF8_CAPO.MaxLength = 50;
+            this.T3tbF8_CAPO.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_CAPO.Multiline = false;
+            this.T3tbF8_CAPO.Name = "T3tbF8_CAPO";
+            this.T3tbF8_CAPO.ReadOnly = true;
+            this.T3tbF8_CAPO.Size = new System.Drawing.Size(130, 36);
+            this.T3tbF8_CAPO.TabIndex = 63;
+            this.T3tbF8_CAPO.Text = "";
+            this.T3tbF8_CAPO.TrailingIcon = null;
+            this.T3tbF8_CAPO.UseTallSize = false;
+            // 
+            // pictureBox106
+            // 
+            this.pictureBox106.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox106.Location = new System.Drawing.Point(133, 76);
+            this.pictureBox106.Name = "pictureBox106";
+            this.pictureBox106.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox106.TabIndex = 61;
+            this.pictureBox106.TabStop = false;
+            // 
+            // T3tbF8_Cp
+            // 
+            this.T3tbF8_Cp.AnimateReadOnly = false;
+            this.T3tbF8_Cp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Cp.Depth = 0;
+            this.T3tbF8_Cp.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Cp.Hint = "Cp";
+            this.T3tbF8_Cp.LeadingIcon = null;
+            this.T3tbF8_Cp.Location = new System.Drawing.Point(160, 61);
+            this.T3tbF8_Cp.MaxLength = 50;
+            this.T3tbF8_Cp.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Cp.Multiline = false;
+            this.T3tbF8_Cp.Name = "T3tbF8_Cp";
+            this.T3tbF8_Cp.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Cp.TabIndex = 33;
+            this.T3tbF8_Cp.Text = "";
+            this.T3tbF8_Cp.TrailingIcon = null;
+            this.T3tbF8_Cp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox104
+            // 
+            this.pictureBox104.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
+            this.pictureBox104.Location = new System.Drawing.Point(249, 59);
+            this.pictureBox104.Name = "pictureBox104";
+            this.pictureBox104.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox104.TabIndex = 27;
+            this.pictureBox104.TabStop = false;
+            // 
+            // T3tbF8_R1
+            // 
+            this.T3tbF8_R1.AnimateReadOnly = false;
+            this.T3tbF8_R1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_R1.Depth = 0;
+            this.T3tbF8_R1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_R1.Hint = "R";
+            this.T3tbF8_R1.LeadingIcon = null;
+            this.T3tbF8_R1.Location = new System.Drawing.Point(30, 19);
+            this.T3tbF8_R1.MaxLength = 50;
+            this.T3tbF8_R1.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_R1.Multiline = false;
+            this.T3tbF8_R1.Name = "T3tbF8_R1";
+            this.T3tbF8_R1.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_R1.TabIndex = 32;
+            this.T3tbF8_R1.Text = "";
+            this.T3tbF8_R1.TrailingIcon = null;
+            this.T3tbF8_R1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // T3tbF8_Q1
+            // 
+            this.T3tbF8_Q1.AnimateReadOnly = false;
+            this.T3tbF8_Q1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Q1.Depth = 0;
+            this.T3tbF8_Q1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Q1.Hint = "Q";
+            this.T3tbF8_Q1.LeadingIcon = null;
+            this.T3tbF8_Q1.Location = new System.Drawing.Point(30, 103);
+            this.T3tbF8_Q1.MaxLength = 50;
+            this.T3tbF8_Q1.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Q1.Multiline = false;
+            this.T3tbF8_Q1.Name = "T3tbF8_Q1";
+            this.T3tbF8_Q1.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Q1.TabIndex = 27;
+            this.T3tbF8_Q1.Text = "";
+            this.T3tbF8_Q1.TrailingIcon = null;
+            this.T3tbF8_Q1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox105
+            // 
+            this.pictureBox105.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox105.Location = new System.Drawing.Point(17, 75);
+            this.pictureBox105.Name = "pictureBox105";
+            this.pictureBox105.Size = new System.Drawing.Size(137, 22);
+            this.pictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox105.TabIndex = 26;
+            this.pictureBox105.TabStop = false;
+            // 
+            // T3tbF8_CAPP
+            // 
+            this.T3tbF8_CAPP.AnimateReadOnly = false;
+            this.T3tbF8_CAPP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_CAPP.Depth = 0;
+            this.T3tbF8_CAPP.Enabled = false;
+            this.T3tbF8_CAPP.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_CAPP.LeadingIcon = null;
+            this.T3tbF8_CAPP.Location = new System.Drawing.Point(301, 59);
+            this.T3tbF8_CAPP.MaxLength = 50;
+            this.T3tbF8_CAPP.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_CAPP.Multiline = false;
+            this.T3tbF8_CAPP.Name = "T3tbF8_CAPP";
+            this.T3tbF8_CAPP.ReadOnly = true;
+            this.T3tbF8_CAPP.Size = new System.Drawing.Size(130, 36);
+            this.T3tbF8_CAPP.TabIndex = 26;
+            this.T3tbF8_CAPP.Text = "";
+            this.T3tbF8_CAPP.TrailingIcon = null;
+            this.T3tbF8_CAPP.UseTallSize = false;
             // 
             // GB_T3_Formula7
             // 
@@ -3743,9 +4042,9 @@
             this.GB_T3_Formula2.Controls.Add(this.pictureBox83);
             this.GB_T3_Formula2.Controls.Add(this.pictureBox84);
             this.GB_T3_Formula2.Controls.Add(this.materialLabel13);
-            this.GB_T3_Formula2.Location = new System.Drawing.Point(3, 61);
+            this.GB_T3_Formula2.Location = new System.Drawing.Point(-68, 59);
             this.GB_T3_Formula2.Name = "GB_T3_Formula2";
-            this.GB_T3_Formula2.Size = new System.Drawing.Size(592, 224);
+            this.GB_T3_Formula2.Size = new System.Drawing.Size(678, 224);
             this.GB_T3_Formula2.TabIndex = 66;
             this.GB_T3_Formula2.TabStop = false;
             this.GB_T3_Formula2.Text = "Formula 2";
@@ -3880,7 +4179,7 @@
             this.T3tbF2_Q0.MouseState = MaterialSkin.MouseState.OUT;
             this.T3tbF2_Q0.Multiline = false;
             this.T3tbF2_Q0.Name = "T3tbF2_Q0";
-            this.T3tbF2_Q0.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF2_Q0.Size = new System.Drawing.Size(175, 50);
             this.T3tbF2_Q0.TabIndex = 65;
             this.T3tbF2_Q0.Text = "";
             this.T3tbF2_Q0.TrailingIcon = null;
@@ -4053,9 +4352,9 @@
             this.GB_T3_Formula1.Controls.Add(this.materialLabel9);
             this.GB_T3_Formula1.Controls.Add(this.pictureBox85);
             this.GB_T3_Formula1.Controls.Add(this.T3tbF1_R);
-            this.GB_T3_Formula1.Location = new System.Drawing.Point(3, 59);
+            this.GB_T3_Formula1.Location = new System.Drawing.Point(-68, 57);
             this.GB_T3_Formula1.Name = "GB_T3_Formula1";
-            this.GB_T3_Formula1.Size = new System.Drawing.Size(786, 158);
+            this.GB_T3_Formula1.Size = new System.Drawing.Size(897, 158);
             this.GB_T3_Formula1.TabIndex = 54;
             this.GB_T3_Formula1.TabStop = false;
             this.GB_T3_Formula1.Text = "Formula 1";
@@ -4087,7 +4386,7 @@
             this.T3tbF1_TIC0.MouseState = MaterialSkin.MouseState.OUT;
             this.T3tbF1_TIC0.Multiline = false;
             this.T3tbF1_TIC0.Name = "T3tbF1_TIC0";
-            this.T3tbF1_TIC0.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF1_TIC0.Size = new System.Drawing.Size(192, 50);
             this.T3tbF1_TIC0.TabIndex = 65;
             this.T3tbF1_TIC0.Text = "";
             this.T3tbF1_TIC0.TrailingIcon = null;
@@ -4354,7 +4653,8 @@
             "Formula 4 ",
             "Formula 5 ",
             "Formula 6",
-            "Formula 7"});
+            "Formula 7",
+            "Formulas 8"});
             this.t3cb.Location = new System.Drawing.Point(9, 6);
             this.t3cb.MaxDropDownItems = 4;
             this.t3cb.MouseState = MaterialSkin.MouseState.OUT;
@@ -4373,11 +4673,255 @@
             this.TabINFO.TabIndex = 3;
             this.TabINFO.Text = "INFO";
             // 
+            // materialLabel17
+            // 
+            this.materialLabel17.AutoSize = true;
+            this.materialLabel17.Depth = 0;
+            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel17.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel17.Location = new System.Drawing.Point(647, 131);
+            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel17.Name = "materialLabel17";
+            this.materialLabel17.Size = new System.Drawing.Size(20, 41);
+            this.materialLabel17.TabIndex = 77;
+            this.materialLabel17.Text = "1";
+            // 
+            // T3tbF8_CAPA
+            // 
+            this.T3tbF8_CAPA.AnimateReadOnly = false;
+            this.T3tbF8_CAPA.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_CAPA.Depth = 0;
+            this.T3tbF8_CAPA.Enabled = false;
+            this.T3tbF8_CAPA.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_CAPA.LeadingIcon = null;
+            this.T3tbF8_CAPA.Location = new System.Drawing.Point(971, 124);
+            this.T3tbF8_CAPA.MaxLength = 50;
+            this.T3tbF8_CAPA.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_CAPA.Multiline = false;
+            this.T3tbF8_CAPA.Name = "T3tbF8_CAPA";
+            this.T3tbF8_CAPA.Size = new System.Drawing.Size(140, 50);
+            this.T3tbF8_CAPA.TabIndex = 76;
+            this.T3tbF8_CAPA.Text = "";
+            this.T3tbF8_CAPA.TrailingIcon = null;
+            // 
+            // pictureBox110
+            // 
+            this.pictureBox110.Image = global::Formulario_IO.Properties.Resources.icons8_signo_igual_50;
+            this.pictureBox110.Location = new System.Drawing.Point(919, 124);
+            this.pictureBox110.Name = "pictureBox110";
+            this.pictureBox110.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox110.TabIndex = 69;
+            this.pictureBox110.TabStop = false;
+            // 
+            // materialLabel18
+            // 
+            this.materialLabel18.AutoSize = true;
+            this.materialLabel18.Depth = 0;
+            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel18.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel18.Location = new System.Drawing.Point(788, 129);
+            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel18.Name = "materialLabel18";
+            this.materialLabel18.Size = new System.Drawing.Size(13, 41);
+            this.materialLabel18.TabIndex = 75;
+            this.materialLabel18.Text = ")";
+            // 
+            // materialLabel19
+            // 
+            this.materialLabel19.AutoSize = true;
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel19.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel19.Location = new System.Drawing.Point(628, 131);
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
+            this.materialLabel19.Size = new System.Drawing.Size(13, 41);
+            this.materialLabel19.TabIndex = 74;
+            this.materialLabel19.Text = "(";
+            // 
+            // T3tbF8_pMin
+            // 
+            this.T3tbF8_pMin.AnimateReadOnly = false;
+            this.T3tbF8_pMin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_pMin.Depth = 0;
+            this.T3tbF8_pMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_pMin.Hint = "p";
+            this.T3tbF8_pMin.LeadingIcon = null;
+            this.T3tbF8_pMin.Location = new System.Drawing.Point(698, 160);
+            this.T3tbF8_pMin.MaxLength = 50;
+            this.T3tbF8_pMin.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_pMin.Multiline = false;
+            this.T3tbF8_pMin.Name = "T3tbF8_pMin";
+            this.T3tbF8_pMin.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_pMin.TabIndex = 70;
+            this.T3tbF8_pMin.Text = "";
+            this.T3tbF8_pMin.TrailingIcon = null;
+            this.T3tbF8_pMin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox111
+            // 
+            this.pictureBox111.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox111.Location = new System.Drawing.Point(669, 131);
+            this.pictureBox111.Name = "pictureBox111";
+            this.pictureBox111.Size = new System.Drawing.Size(20, 31);
+            this.pictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox111.TabIndex = 71;
+            this.pictureBox111.TabStop = false;
+            // 
+            // pictureBox112
+            // 
+            this.pictureBox112.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox112.Location = new System.Drawing.Point(668, 138);
+            this.pictureBox112.Name = "pictureBox112";
+            this.pictureBox112.Size = new System.Drawing.Size(145, 22);
+            this.pictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox112.TabIndex = 72;
+            this.pictureBox112.TabStop = false;
+            // 
+            // T3tbF8_rMin
+            // 
+            this.T3tbF8_rMin.AnimateReadOnly = false;
+            this.T3tbF8_rMin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_rMin.Depth = 0;
+            this.T3tbF8_rMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_rMin.Hint = "r";
+            this.T3tbF8_rMin.LeadingIcon = null;
+            this.T3tbF8_rMin.Location = new System.Drawing.Point(699, 86);
+            this.T3tbF8_rMin.MaxLength = 50;
+            this.T3tbF8_rMin.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_rMin.Multiline = false;
+            this.T3tbF8_rMin.Name = "T3tbF8_rMin";
+            this.T3tbF8_rMin.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_rMin.TabIndex = 73;
+            this.T3tbF8_rMin.Text = "";
+            this.T3tbF8_rMin.TrailingIcon = null;
+            this.T3tbF8_rMin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox113
+            // 
+            this.pictureBox113.Image = global::Formulario_IO.Properties.Resources.icons8_menos_50;
+            this.pictureBox113.Location = new System.Drawing.Point(477, 138);
+            this.pictureBox113.Name = "pictureBox113";
+            this.pictureBox113.Size = new System.Drawing.Size(145, 22);
+            this.pictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox113.TabIndex = 79;
+            this.pictureBox113.TabStop = false;
+            // 
+            // T3tbF8_Q3
+            // 
+            this.T3tbF8_Q3.AnimateReadOnly = false;
+            this.T3tbF8_Q3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Q3.Depth = 0;
+            this.T3tbF8_Q3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Q3.Hint = "Q";
+            this.T3tbF8_Q3.LeadingIcon = null;
+            this.T3tbF8_Q3.Location = new System.Drawing.Point(508, 87);
+            this.T3tbF8_Q3.MaxLength = 50;
+            this.T3tbF8_Q3.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Q3.Multiline = false;
+            this.T3tbF8_Q3.Name = "T3tbF8_Q3";
+            this.T3tbF8_Q3.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Q3.TabIndex = 80;
+            this.T3tbF8_Q3.Text = "";
+            this.T3tbF8_Q3.TrailingIcon = null;
+            this.T3tbF8_Q3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox114
+            // 
+            this.pictureBox114.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox114.Location = new System.Drawing.Point(601, 138);
+            this.pictureBox114.Name = "pictureBox114";
+            this.pictureBox114.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox114.TabIndex = 81;
+            this.pictureBox114.TabStop = false;
+            // 
+            // materialLabel20
+            // 
+            this.materialLabel20.AutoSize = true;
+            this.materialLabel20.Depth = 0;
+            this.materialLabel20.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel20.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel20.Location = new System.Drawing.Point(216, 32);
+            this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel20.Name = "materialLabel20";
+            this.materialLabel20.Size = new System.Drawing.Size(252, 24);
+            this.materialLabel20.TabIndex = 82;
+            this.materialLabel20.Text = "Costo anual por preparacion";
+            // 
+            // materialLabel21
+            // 
+            this.materialLabel21.AutoSize = true;
+            this.materialLabel21.Depth = 0;
+            this.materialLabel21.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel21.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel21.Location = new System.Drawing.Point(216, 177);
+            this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel21.Name = "materialLabel21";
+            this.materialLabel21.Size = new System.Drawing.Size(215, 24);
+            this.materialLabel21.TabIndex = 83;
+            this.materialLabel21.Text = "Costo anual por ordenar";
+            // 
+            // materialLabel22
+            // 
+            this.materialLabel22.AutoSize = true;
+            this.materialLabel22.Depth = 0;
+            this.materialLabel22.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel22.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel22.Location = new System.Drawing.Point(896, 97);
+            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel22.Name = "materialLabel22";
+            this.materialLabel22.Size = new System.Drawing.Size(240, 24);
+            this.materialLabel22.TabIndex = 84;
+            this.materialLabel22.Text = "Costo anual por almacenar";
+            // 
+            // T3tbF8_Ch
+            // 
+            this.T3tbF8_Ch.AnimateReadOnly = false;
+            this.T3tbF8_Ch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.T3tbF8_Ch.Depth = 0;
+            this.T3tbF8_Ch.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.T3tbF8_Ch.Hint = "Ch";
+            this.T3tbF8_Ch.LeadingIcon = null;
+            this.T3tbF8_Ch.Location = new System.Drawing.Point(830, 122);
+            this.T3tbF8_Ch.MaxLength = 50;
+            this.T3tbF8_Ch.MouseState = MaterialSkin.MouseState.OUT;
+            this.T3tbF8_Ch.Multiline = false;
+            this.T3tbF8_Ch.Name = "T3tbF8_Ch";
+            this.T3tbF8_Ch.Size = new System.Drawing.Size(83, 50);
+            this.T3tbF8_Ch.TabIndex = 85;
+            this.T3tbF8_Ch.Text = "";
+            this.T3tbF8_Ch.TrailingIcon = null;
+            this.T3tbF8_Ch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // pictureBox115
+            // 
+            this.pictureBox115.Image = global::Formulario_IO.Properties.Resources.icons8_cross_50;
+            this.pictureBox115.Location = new System.Drawing.Point(803, 139);
+            this.pictureBox115.Name = "pictureBox115";
+            this.pictureBox115.Size = new System.Drawing.Size(21, 20);
+            this.pictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox115.TabIndex = 86;
+            this.pictureBox115.TabStop = false;
+            // 
+            // materialLabel23
+            // 
+            this.materialLabel23.AutoSize = true;
+            this.materialLabel23.Depth = 0;
+            this.materialLabel23.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel23.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
+            this.materialLabel23.Location = new System.Drawing.Point(537, 163);
+            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel23.Name = "materialLabel23";
+            this.materialLabel23.Size = new System.Drawing.Size(20, 41);
+            this.materialLabel23.TabIndex = 87;
+            this.materialLabel23.Text = "2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1366, 480);
+            this.ClientSize = new System.Drawing.Size(1224, 476);
             this.Controls.Add(this.Tab_Control_Formulario);
             this.DrawerTabControl = this.Tab_Control_Formulario;
             this.ForeColor = System.Drawing.SystemColors.Control;
@@ -4481,6 +5025,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
             this.TabTema3.ResumeLayout(false);
+            this.GB_T3_Formula8.ResumeLayout(false);
+            this.GB_T3_Formula8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).EndInit();
             this.GB_T3_Formula7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).EndInit();
@@ -4517,6 +5069,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox87)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox86)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox85)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4781,6 +5339,39 @@
         private MaterialSkin.Controls.MaterialTextBox T3tbF2_Cp;
         private MaterialSkin.Controls.MaterialTextBox T3tbF2_Ch;
         private System.Windows.Forms.PictureBox pictureBox103;
+        private System.Windows.Forms.GroupBox GB_T3_Formula8;
+        private System.Windows.Forms.PictureBox pictureBox107;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Co;
+        private System.Windows.Forms.PictureBox pictureBox108;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_R2;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Q2;
+        private System.Windows.Forms.PictureBox pictureBox109;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_CAPO;
+        private System.Windows.Forms.PictureBox pictureBox106;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Cp;
+        private System.Windows.Forms.PictureBox pictureBox104;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_R1;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Q1;
+        private System.Windows.Forms.PictureBox pictureBox105;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_CAPP;
+        private System.Windows.Forms.PictureBox pictureBox114;
+        private System.Windows.Forms.PictureBox pictureBox113;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Q3;
+        private MaterialSkin.Controls.MaterialLabel materialLabel17;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_CAPA;
+        private System.Windows.Forms.PictureBox pictureBox110;
+        private MaterialSkin.Controls.MaterialLabel materialLabel18;
+        private MaterialSkin.Controls.MaterialLabel materialLabel19;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_pMin;
+        private System.Windows.Forms.PictureBox pictureBox111;
+        private System.Windows.Forms.PictureBox pictureBox112;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_rMin;
+        private MaterialSkin.Controls.MaterialLabel materialLabel22;
+        private MaterialSkin.Controls.MaterialLabel materialLabel21;
+        private MaterialSkin.Controls.MaterialLabel materialLabel20;
+        private System.Windows.Forms.PictureBox pictureBox115;
+        private MaterialSkin.Controls.MaterialTextBox T3tbF8_Ch;
+        private MaterialSkin.Controls.MaterialLabel materialLabel23;
     }
 }
 

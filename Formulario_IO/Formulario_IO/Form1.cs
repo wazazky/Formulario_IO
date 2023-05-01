@@ -48,6 +48,7 @@ namespace Formulario_IO
             GB_T3_Formula5.Visible = false;
             GB_T3_Formula6.Visible = false;
             GB_T3_Formula7.Visible = false;
+            GB_T3_Formula8.Visible = false;
 
 
         }
@@ -636,7 +637,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = false;
-                
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 1:
                     GB_T3_Formula1.Visible = false;
@@ -646,7 +647,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = false;
-                   
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 2:
                     GB_T3_Formula1.Visible = false;
@@ -656,7 +657,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = false;
-                 
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 3:
                     GB_T3_Formula1.Visible = false;
@@ -666,7 +667,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = false;
-                   
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 4:
                     GB_T3_Formula1.Visible = false;
@@ -676,7 +677,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = true;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = false;
-                  
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 5:
                     GB_T3_Formula1.Visible = false;
@@ -686,7 +687,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = true;
                     GB_T3_Formula7.Visible = false;
-                   
+                    GB_T3_Formula8.Visible = false;
                     break;
                 case 6:
                     GB_T3_Formula1.Visible = false;
@@ -696,6 +697,17 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     GB_T3_Formula5.Visible = false;
                     GB_T3_Formula6.Visible = false;
                     GB_T3_Formula7.Visible = true;
+                    GB_T3_Formula8.Visible = false;
+                    break; 
+                case 7:
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = false;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
+                    GB_T3_Formula8.Visible = true;
                
                     break;
               
@@ -723,7 +735,11 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
         public static double T3_Formula5(double I, double C) { return I * C; }
         public static double T3_Formula6(double R, double Dias) { return R/Dias; }
         public static double T3_Formula7(double P, double Dias) { return P/Dias; }
+        public static double T3_Formula8_CAPP(double R, double Q,double Cp) { return (R/Q)*Cp; }
+        public static double T3_Formula8_CAPO(double R, double Q,double Co) { return (R/Q)*Co; }
+        public static double T3_Formula8_CAPA(double Q, double r,double p,double Ch) { return (Q/2)*(1-(r/p))*Ch;}
 
+       
         private void materialFloatingActionButton1_Click_1(object sender, EventArgs e)
         {
             try
@@ -762,7 +778,17 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                     T3tbF7_pMin.Text = formula_7(double.Parse(T3tbF7_P.Text), double.Parse(T3tbF7_Dias.Text)).ToString();
 
                 }
-              // Código que puede lanzar una excepción
+                if (t3cb.SelectedIndex == 7)
+                {
+                    
+                        T3tbF8_CAPP.Text = T3_Formula8_CAPP(double.Parse(T3tbF8_R1.Text), double.Parse(T3tbF8_Q1.Text), double.Parse(T3tbF8_Ch.Text)).ToString();
+                  
+                        T3tbF8_CAPO.Text = T3_Formula8_CAPO(double.Parse(T3tbF8_R2.Text), double.Parse(T3tbF8_Q2.Text), double.Parse(T3tbF8_Co.Text)).ToString(); 
+                   
+                        T3tbF8_CAPA.Text = T3_Formula8_CAPA(double.Parse(T3tbF8_Q3.Text), double.Parse(T3tbF8_rMin.Text), double.Parse(T3tbF8_pMin.Text), double.Parse(T3tbF8_Ch.Text)).ToString();
+                  
+                }
+                // Código que puede lanzar una excepción
             }
             catch (Exception)
             {
@@ -802,17 +828,18 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                 case 6:
                     T3tbF7_pMin.Text = string.Empty; T3tbF7_P.Text = string.Empty; T3tbF7_Dias.Text = string.Empty;
                     break;
+                case 7:
+                 
+                    T3tbF8_CAPP.Text = string.Empty; T3tbF8_R1.Text = string.Empty; T3tbF8_Q1.Text = string.Empty; T3tbF8_Ch.Text = string.Empty;
+                    T3tbF8_CAPO.Text = string.Empty; T3tbF8_R2.Text = string.Empty; T3tbF8_Q2.Text = string.Empty; T3tbF8_Co.Text = string.Empty;
+                    T3tbF8_CAPA.Text = string.Empty; T3tbF8_Q3.Text = string.Empty; T3tbF8_rMin.Text = string.Empty; T3tbF8_pMin.Text = string.Empty; T3tbF8_Ch.Text = string.Empty;
+                    break;
                 default:
                     //👌
                     break;
             }
         }
 
-        private void Tab_Control_Formulario_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-       
+     
     }
 }
