@@ -781,7 +781,7 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                 if (t3cb.SelectedIndex == 7)
                 {
                     
-                        T3tbF8_CAPP.Text = T3_Formula8_CAPP(double.Parse(T3tbF8_R1.Text), double.Parse(T3tbF8_Q1.Text), double.Parse(T3tbF8_Ch.Text)).ToString();
+                        T3tbF8_CAPP.Text = T3_Formula8_CAPP(double.Parse(T3tbF8_R1.Text), double.Parse(T3tbF8_Q1.Text), double.Parse(T3tbF8_Cp.Text)).ToString();
                   
                         T3tbF8_CAPO.Text = T3_Formula8_CAPO(double.Parse(T3tbF8_R2.Text), double.Parse(T3tbF8_Q2.Text), double.Parse(T3tbF8_Co.Text)).ToString(); 
                    
