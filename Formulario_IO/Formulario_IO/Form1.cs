@@ -669,13 +669,13 @@ public static double T_Tema_2(double K, double c, double Q, double h, double S, 
                    
                     break;
                 case 4:
-                    GB_Formula1.Visible = false;
-                    GB_Formula2.Visible = false;
-                    GB_Formula3.Visible = false;
-                    GB_Formula4.Visible = false;
-                    GB_Formula5.Visible = true;
-                    GB_Formula6.Visible = false;
-                    GB_Formula7.Visible = false;
+                    GB_T3_Formula1.Visible = false;
+                    GB_T3_Formula2.Visible = false;
+                    GB_T3_Formula3.Visible = false;
+                    GB_T3_Formula4.Visible = false;
+                    GB_T3_Formula5.Visible = true;
+                    GB_T3_Formula6.Visible = false;
+                    GB_T3_Formula7.Visible = false;
                   
                     break;
                 case 5:
